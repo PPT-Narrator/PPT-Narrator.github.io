@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PPT Narrator: Speaker Notes — Support</title>
+  <meta name="description" content="Technical support for PPT Narrator: Speaker Notes — an iOS app that reads your presentation speaker notes aloud slide by slide." />
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1f2328;
+      --muted: #656d76;
+      --accent: #2f6fed;
+      --border: #d8dee4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+    .container { max-width: 760px; margin: 0 auto; padding: 40px 20px 60px; }
+    header.app {
+      text-align: center;
+      padding: 24px 0 8px;
+    }
+    .app-icon {
+      width: 84px; height: 84px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #2f6fed, #7b4de8);
+      display: inline-flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 40px; font-weight: 800;
+      box-shadow: 0 8px 24px rgba(47,111,237,.25);
+    }
+    h1 { font-size: 1.7rem; margin: 18px 0 4px; }
+    .subtitle { color: var(--muted); margin: 0 0 28px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 26px;
+      margin-bottom: 20px;
+    }
+    h2 { font-size: 1.2rem; margin: 0 0 14px; }
+    h3 { font-size: 1rem; margin: 22px 0 6px; }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0; padding-left: 22px; }
+    li { margin: 5px 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-big {
+      display: flex; align-items: center; gap: 10px;
+      background: #eef3ff;
+      border: 1px solid #cddbff;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-top: 6px;
+      word-break: break-all;
+    }
+    footer {
+      text-align: center; color: var(--muted);
+      font-size: .9rem; margin-top: 28px;
+    }
+    @media (max-width: 520px) {
+      .container { padding: 24px 14px 48px; }
+      .card { padding: 18px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="app">
+      <div class="app-icon">🎙️</div>
+      <h1>PPT Narrator: Speaker Notes</h1>
+      <p class="subtitle">Hear and rehearse every slide</p>
+    </header>
+
+    <section class="card">
+      <h2>Technical Support</h2>
+      <p>Thanks for using PPT Narrator: Speaker Notes. This app turns the speaker notes in your presentations into audio you can listen to slide by slide, so you can rehearse before you present.</p>
+      <p>If you run into any problem, the answers below cover the most common questions. If you still need help, please email us and we will get back to you as soon as we can.</p>
+      <div class="contact-big">
+        <span>📧</span>
+        <a href="mailto:m15568817011@163.com">m15568817011@163.com</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I import a presentation?</h3>
+      <p>Open the app and tap the import button, then pick a <strong>PPT</strong> or <strong>PPTX</strong> file from the Files app (or from AirDrop, Mail, etc.). The app converts the file and shows every slide with its speaker notes.</p>
+
+      <h3>Which file formats are supported?</h3>
+      <ul>
+        <li><strong>PPTX</strong> — recommended, fully supported.</li>
+        <li><strong>PPT</strong> — supported.</li>
+        <li><strong>Keynote (.key)</strong> — open the file in Keynote first, export it as a PowerPoint <code>.pptx</code> copy, save it to Files, then import that copy in the app.</li>
+      </ul>
+
+      <h3>The app does not read my speaker notes aloud.</h3>
+      <ul>
+        <li>Make sure the slides actually contain speaker notes (text added in the “Notes” area of your presentation).</li>
+        <li>Check that your device is not muted and the volume is turned up.</li>
+        <li>Try another language/voice: PPT Narrator uses the iOS system speech voices, so the reading voice follows your system settings.</li>
+        <li>If you edited the notes, close and reopen the notes editor so the change is picked up.</li>
+      </ul>
+
+      <h3>There is no sound, or the sound is too quiet.</h3>
+      <ul>
+        <li>Turn up the volume and make sure the device is not set to silent.</li>
+        <li>If using headphones, check the connection; the app pauses automatically when headphones are disconnected.</li>
+        <li>Check the iOS “Ring/Silent” switch and the Control Center volume.</li>
+      </ul>
+
+      <h3>Why do PPT / PPTX files need a conversion step?</h3>
+      <p>The app renders every page as a slide image before reading it. For PPT and PPTX files this conversion can run through a local service on your own network (the default) or through a cloud conversion endpoint that the developer has configured. If you see a network/conversion error, please check your connection and try again, or contact us.</p>
+
+      <h3>How do I edit my speaker notes?</h3>
+      <p>Tap the notes button to open the current slide’s notes. You can edit the text, then close it. The updated text is used the next time you play that slide.</p>
+
+      <h3>Can I listen in the background?</h3>
+      <p>Yes. The app supports background audio playback and continues playing through headphones. It pauses automatically when headphones are disconnected.</p>
+
+      <h3>How do I switch between portrait and landscape?</h3>
+      <p>Just rotate your device. You can also pinch to zoom and swipe between slides like in the Photos app.</p>
+
+      <h3>I found a bug, or I have a feature request.</h3>
+      <p>Please email us at <a href="mailto:m15568817011@163.com">m15568817011@163.com</a>. Including the following helps us help you faster:</p>
+      <ul>
+        <li>Your iOS version and device model.</li>
+        <li>The app version (see App Store page).</li>
+        <li>A short description of what happened and the steps to reproduce it.</li>
+        <li>A screenshot or screen recording if possible.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>For any question about the app, your data, or this website, contact us:</p>
+      <div class="contact-big">
+        <span>📧</span>
+        <a href="mailto:m15568817011@163.com">m15568817011@163.com</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 PPT Narrator. All rights reserved. · <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+  </div>
+</body>
+</html>
