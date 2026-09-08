@@ -3,8 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PPT Narrator: Speaker Notes — Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for PPT Narrator: Speaker Notes, an iOS app that reads your presentation speaker notes aloud." />
+  <title>Tingbo: PPT Notes Reader — Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for Tingbo: PPT Notes Reader, an iOS app that reads your presentation speaker notes aloud." />
+  <link rel="canonical" href="https://ppt-narrator.github.io/privacy.html" />
+  <link rel="alternate" hreflang="en" href="https://ppt-narrator.github.io/privacy.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://ppt-narrator.github.io/zh/privacy.html" />
+  <link rel="alternate" hreflang="x-default" href="https://ppt-narrator.github.io/privacy.html" />
+  <link rel="icon" href="/images/tingbo-app-icon.png" type="image/png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tingbo Privacy Policy" />
+  <meta property="og:description" content="How Tingbo handles presentation files, speaker notes, local storage, and requested file conversion." />
+  <meta property="og:url" content="https://ppt-narrator.github.io/privacy.html" />
+  <meta property="og:image" content="https://ppt-narrator.github.io/images/og-en.jpg" />
   <style>
     :root {
       --bg: #f7f8fa;
@@ -60,7 +70,7 @@
 
     <section class="card">
       <h2>Overview</h2>
-      <p>PPT Narrator: Speaker Notes (“the App”, “we”, “us”) is an iOS app that reads the speaker notes in your presentations aloud, slide by slide, to help you rehearse before you present.</p>
+      <p>Tingbo: PPT Notes Reader (“the App”, “we”, “us”) is an iOS app that reads the speaker notes in your presentations aloud, slide by slide, to help you rehearse before you present.</p>
       <p>Your privacy matters to us. This policy explains what information the App collects and how it is handled. <strong>In short: the App is designed to keep your presentations and notes on your own device, and we do not collect, sell, or share any personal information.</strong></p>
     </section>
 
@@ -85,14 +95,14 @@
       <p>To render every page of a PPT or PPTX file as a slide image, the App may perform a conversion step:</p>
       <ul>
         <li><strong>Local conversion (default):</strong> The App connects to a conversion service running on your own local network (for example, a service on your Mac). Your file is sent over your local network and is not transmitted to any third party.</li>
-        <li><strong>Cloud conversion (optional):</strong> If the developer has configured a cloud conversion endpoint, your presentation file may be transmitted to that service (a third-party file-conversion provider) for the sole purpose of rendering your slides. The file is used only to complete the conversion you requested and is not used for any other purpose.</li>
+        <li><strong>Cloud conversion:</strong> When a presentation needs remote rendering, the current iOS build requests a conversion job through a Cloudflare Worker, then uploads the selected file directly to CloudConvert. The file is used only to complete the conversion you requested and is not used for any other purpose.</li>
       </ul>
       <p>Your file is never used for advertising, profiling, or anything other than the conversion you explicitly trigger.</p>
     </section>
 
     <section class="card">
       <h2>Third-Party Services</h2>
-      <p>When the optional cloud conversion is used, a third-party file-conversion provider may process the presentation file solely to convert it into slide images. This provider receives only the file you choose to convert and nothing else. We do not sell or rent your data to anyone.</p>
+      <p>When cloud conversion is used, Cloudflare handles the job request and CloudConvert receives the selected presentation to create the rendered result. These services receive only the information and file needed for that operation. We do not sell or rent your data to anyone.</p>
       <p>This website is hosted on GitHub Pages, which may process standard server logs (such as your IP address) in accordance with GitHub’s privacy practices.</p>
     </section>
 
@@ -118,7 +128,7 @@
     </section>
 
     <footer>
-      <p>© 2026 PPT Narrator. All rights reserved. · <a href="index.html">Support</a> · <a href="terms.html">Terms of Use</a></p>
+      <p>© 2026 Tingbo. All rights reserved. · <a href="index.html">Home</a> · <a href="terms.html">Terms of Use</a></p>
     </footer>
   </div>
 </body>
