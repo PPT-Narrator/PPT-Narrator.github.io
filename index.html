@@ -1,159 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PPT Narrator: Speaker Notes — Support</title>
-  <meta name="description" content="Technical support for PPT Narrator: Speaker Notes — an iOS app that reads your presentation speaker notes aloud slide by slide." />
-  <style>
-    :root {
-      --bg: #f7f8fa;
-      --card: #ffffff;
-      --text: #1f2328;
-      --muted: #656d76;
-      --accent: #2f6fed;
-      --border: #d8dee4;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.65;
-    }
-    .container { max-width: 760px; margin: 0 auto; padding: 40px 20px 60px; }
-    .lang-switch { text-align: right; margin-bottom: 10px; }
-    .lang-switch a { font-size: .9rem; }
-    header.app {
-      text-align: center;
-      padding: 24px 0 8px;
-    }
-    .app-icon {
-      width: 84px; height: 84px;
-      border-radius: 20px;
-      background: linear-gradient(135deg, #2f6fed, #7b4de8);
-      display: inline-flex; align-items: center; justify-content: center;
-      color: #fff; font-size: 40px; font-weight: 800;
-      box-shadow: 0 8px 24px rgba(47,111,237,.25);
-    }
-    h1 { font-size: 1.7rem; margin: 18px 0 4px; }
-    .subtitle { color: var(--muted); margin: 0 0 28px; }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px 26px;
-      margin-bottom: 20px;
-    }
-    h2 { font-size: 1.2rem; margin: 0 0 14px; }
-    h3 { font-size: 1rem; margin: 22px 0 6px; }
-    p { margin: 8px 0; }
-    ul { margin: 8px 0; padding-left: 22px; }
-    li { margin: 5px 0; }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .contact-big {
-      display: flex; align-items: center; gap: 10px;
-      background: #eef3ff;
-      border: 1px solid #cddbff;
-      border-radius: 10px;
-      padding: 14px 18px;
-      margin-top: 6px;
-      word-break: break-all;
-    }
-    footer {
-      text-align: center; color: var(--muted);
-      font-size: .9rem; margin-top: 28px;
-    }
-    @media (max-width: 520px) {
-      .container { padding: 24px 14px 48px; }
-      .card { padding: 18px 18px; }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tingbo: PPT Notes Reader | Read PowerPoint Notes Aloud</title>
+  <meta name="description" content="Tingbo reads PowerPoint speaker notes aloud slide by slide. Edit your script, rehearse hands-free, auto-advance, and keep listening in the background.">
+  <meta name="keywords" content="PowerPoint notes reader,PPT notes reader,read speaker notes aloud,presentation rehearsal,text to speech,PPTX reader">
+  <meta name="theme-color" content="#062832">
+  <meta name="apple-itunes-app" content="app-id=6806785922">
+  <link rel="canonical" href="https://ppt-narrator.github.io/">
+  <link rel="alternate" hreflang="en" href="https://ppt-narrator.github.io/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://ppt-narrator.github.io/zh/">
+  <link rel="alternate" hreflang="x-default" href="https://ppt-narrator.github.io/">
+  <link rel="icon" href="/images/tingbo-app-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/images/tingbo-app-icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tingbo">
+  <meta property="og:title" content="Tingbo: PPT Notes Reader">
+  <meta property="og:description" content="Turn PowerPoint speaker notes into audio and rehearse slide by slide.">
+  <meta property="og:url" content="https://ppt-narrator.github.io/">
+  <meta property="og:image" content="https://ppt-narrator.github.io/images/og-en.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Tingbo showing a PowerPoint slide with speaker notes and playback controls">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tingbo: PPT Notes Reader">
+  <meta name="twitter:description" content="Hear every PowerPoint speaker note and rehearse before you present.">
+  <meta name="twitter:image" content="https://ppt-narrator.github.io/images/og-en.jpg">
+  <meta property="al:ios:app_store_id" content="6806785922">
+  <meta property="al:ios:app_name" content="Tingbo: PPT Notes Reader">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://ppt-narrator.github.io/#app",
+        "name": "Tingbo: PPT Notes Reader",
+        "alternateName": "听播 Tingbo · PPT听稿",
+        "url": "https://ppt-narrator.github.io/",
+        "downloadUrl": "https://apps.apple.com/us/app/id6806785922",
+        "applicationCategory": "ProductivityApplication",
+        "applicationSubCategory": "Presentation software",
+        "operatingSystem": "iOS",
+        "isAccessibleForFree": true,
+        "description": "Tingbo reads PowerPoint speaker notes aloud slide by slide so people can rehearse presentations by listening.",
+        "image": "https://ppt-narrator.github.io/images/og-en.jpg",
+        "screenshot": [
+          "https://ppt-narrator.github.io/images/en-notes-to-audio.webp",
+          "https://ppt-narrator.github.io/images/en-slide-and-script.webp",
+          "https://ppt-narrator.github.io/images/en-landscape-browsing.webp"
+        ],
+        "featureList": [
+          "Import PPT and PPTX presentations",
+          "Read speaker notes aloud slide by slide",
+          "Automatically advance after narration",
+          "Edit speaker notes",
+          "Background and headphone playback",
+          "Portrait and landscape presentation browsing",
+          "Export PPTX or notes as Markdown"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ppt-narrator.github.io/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Tingbo?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Tingbo is a presentation rehearsal app that shows each slide and reads its speaker notes aloud. It helps people learn the order, wording, and key points of a talk before presenting." }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I make PowerPoint speaker notes read aloud?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Import a PPT or PPTX file into Tingbo, open the first slide, and tap Play. Tingbo reads that slide's notes and automatically moves to the next slide when the narration finishes." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Tingbo support PPT, PPTX, and Keynote?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Tingbo imports PPT and PPTX files. For a Keynote file, export a PowerPoint copy from Keynote first, then import the resulting PPTX file." }
+          },
+          {
+            "@type": "Question",
+            "name": "Are presentation files uploaded to a server?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Image-based PPTX files can be read locally. Legacy PPT files and presentations with editable layouts may be sent to the configured conversion service only when conversion is needed. Speaker-note narration uses the device's text-to-speech engine." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I edit speaker notes in Tingbo?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Open the notes panel on the current slide, edit the script, and save it for the next playback. Notes can also be exported as Markdown." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Tingbo play in the background or through headphones?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Tingbo supports background audio and headphone output, and pauses automatically when headphones are disconnected." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <div class="container">
-    <div class="lang-switch">English · <a href="zh/">中文</a></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/">
+        <img src="/images/tingbo-app-icon.png" alt="Tingbo app icon" width="42" height="42">
+        <span>Tingbo</span>
+      </a>
+      <div class="nav-links">
+        <a href="/features/">Features</a>
+        <a class="optional" href="/how-to-read-ppt-notes-aloud/">How it works</a>
+        <a class="optional" href="#faq">FAQ</a>
+        <a href="/zh/" lang="zh-Hans">中文</a>
+      </div>
+    </nav>
+  </header>
 
-    <header class="app">
-      <div class="app-icon">🎙️</div>
-      <h1>PPT Narrator: Speaker Notes</h1>
-      <p class="subtitle">Hear and rehearse every slide</p>
-    </header>
-
-    <section class="card">
-      <h2>Technical Support</h2>
-      <p>Thanks for using PPT Narrator: Speaker Notes. This app turns the speaker notes in your presentations into audio you can listen to slide by slide, so you can rehearse before you present.</p>
-      <p>If you run into any problem, the answers below cover the most common questions. If you still need help, please email us and we will get back to you as soon as we can.</p>
-      <div class="contact-big">
-        <span>📧</span>
-        <a href="mailto:m15568817011@163.com">m15568817011@163.com</a>
+  <main id="main">
+    <section class="hero hero-en">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Presentation rehearsal by listening</p>
+          <h1>Tingbo: PPT Notes Reader</h1>
+          <p class="hero-lede">Turn every PowerPoint speaker note into audio. Follow your slides, edit the script, and listen through the whole deck two or three times before you present.</p>
+          <div class="actions">
+            <a class="button" href="https://apps.apple.com/us/app/id6806785922" rel="noopener">Download on the App Store</a>
+            <a class="button button-secondary" href="#demo">Watch the app demo</a>
+          </div>
+          <p class="hero-facts">Free on iPhone and iPad · Imports PPT and PPTX · No account required</p>
+        </div>
       </div>
     </section>
 
-    <section class="card">
-      <h2>Frequently Asked Questions</h2>
-
-      <h3>How do I import a presentation?</h3>
-      <p>Open the app and tap the import button, then pick a <strong>PPT</strong> or <strong>PPTX</strong> file from the Files app (or from AirDrop, Mail, etc.). The app converts the file and shows every slide with its speaker notes.</p>
-
-      <h3>Which file formats are supported?</h3>
-      <ul>
-        <li><strong>PPTX</strong> — recommended, fully supported.</li>
-        <li><strong>PPT</strong> — supported.</li>
-        <li><strong>Keynote (.key)</strong> — open the file in Keynote first, export it as a PowerPoint <code>.pptx</code> copy, save it to Files, then import that copy in the app.</li>
-      </ul>
-
-      <h3>The app does not read my speaker notes aloud.</h3>
-      <ul>
-        <li>Make sure the slides actually contain speaker notes (text added in the “Notes” area of your presentation).</li>
-        <li>Check that your device is not muted and the volume is turned up.</li>
-        <li>Try another language/voice: PPT Narrator uses the iOS system speech voices, so the reading voice follows your system settings.</li>
-        <li>If you edited the notes, close and reopen the notes editor so the change is picked up.</li>
-      </ul>
-
-      <h3>There is no sound, or the sound is too quiet.</h3>
-      <ul>
-        <li>Turn up the volume and make sure the device is not set to silent.</li>
-        <li>If using headphones, check the connection; the app pauses automatically when headphones are disconnected.</li>
-        <li>Check the iOS “Ring/Silent” switch and the Control Center volume.</li>
-      </ul>
-
-      <h3>Why do PPT / PPTX files need a conversion step?</h3>
-      <p>The app renders every page as a slide image before reading it. For PPT and PPTX files this conversion can run through a local service on your own network (the default) or through a cloud conversion endpoint that the developer has configured. If you see a network/conversion error, please check your connection and try again, or contact us.</p>
-
-      <h3>How do I edit my speaker notes?</h3>
-      <p>Tap the notes button to open the current slide’s notes. You can edit the text, then close it. The updated text is used the next time you play that slide.</p>
-
-      <h3>Can I listen in the background?</h3>
-      <p>Yes. The app supports background audio playback and continues playing through headphones. It pauses automatically when headphones are disconnected.</p>
-
-      <h3>How do I switch between portrait and landscape?</h3>
-      <p>Just rotate your device. You can also pinch to zoom and swipe between slides like in the Photos app.</p>
-
-      <h3>I found a bug, or I have a feature request.</h3>
-      <p>Please email us at <a href="mailto:m15568817011@163.com">m15568817011@163.com</a>. Including the following helps us help you faster:</p>
-      <ul>
-        <li>Your iOS version and device model.</li>
-        <li>The app version (see App Store page).</li>
-        <li>A short description of what happened and the steps to reproduce it.</li>
-        <li>A screenshot or screen recording if possible.</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Contact</h2>
-      <p>For any question about the app, your data, or this website, contact us:</p>
-      <div class="contact-big">
-        <span>📧</span>
-        <a href="mailto:m15568817011@163.com">m15568817011@163.com</a>
+    <section class="section" aria-labelledby="features-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">Listen, revise, rehearse</p>
+          <h2 id="features-title">Your slides and script stay in sync</h2>
+          <p>Tingbo keeps the current slide, its speaker notes, and playback controls together, so rehearsal follows the same order as the real presentation.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-item"><strong><span class="feature-mark">01</span> Notes to speech</strong><p>Read speaker notes aloud one slide at a time with the device's system voice.</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">02</span> Automatic advance</strong><p>Move to the next slide as soon as the current narration finishes.</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">03</span> Edit while rehearsing</strong><p>Open the current note, fix an awkward line, save it, and listen again.</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">04</span> Photo-style browsing</strong><p>Swipe between slides, rotate the device, and pinch to inspect details.</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">05</span> Background listening</strong><p>Keep listening with the screen locked or through headphones. Playback pauses when headphones disconnect.</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">06</span> History and export</strong><p>Reopen earlier decks and export a PPTX copy or speaker notes as Markdown.</p></article>
+        </div>
+        <div class="actions"><a class="button" href="/features/">Explore all features</a></div>
       </div>
     </section>
 
-    <footer>
-      <p>© 2026 PPT Narrator. All rights reserved. · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
-    </footer>
-  </div>
+    <section class="section section-dark" aria-labelledby="screens-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">Real app screens</p>
+          <h2 id="screens-title">Built for repeated practice</h2>
+          <p>Use the same simple loop each time: import, listen, revise, and listen again until the presentation feels familiar.</p>
+        </div>
+        <div class="screenshot-grid">
+          <figure class="screenshot">
+            <img src="/images/en-notes-to-audio.webp" width="720" height="1461" loading="lazy" alt="Tingbo reading PowerPoint speaker notes aloud slide by slide">
+            <figcaption>Hear each slide's speaker notes and advance automatically.</figcaption>
+          </figure>
+          <figure class="screenshot">
+            <img src="/images/en-slide-and-script.webp" width="720" height="1461" loading="lazy" alt="Tingbo showing a PowerPoint slide beside its speaker notes">
+            <figcaption>See the slide and script together while you rehearse.</figcaption>
+          </figure>
+          <figure class="screenshot">
+            <img src="/images/en-landscape-browsing.webp" width="720" height="1461" loading="lazy" alt="Tingbo PowerPoint viewer in landscape with swipe and zoom controls">
+            <figcaption>Rotate, zoom, and swipe through the deck like Photos.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" aria-labelledby="workflow-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">A practical rehearsal loop</p>
+          <h2 id="workflow-title">Listen before the presentation starts</h2>
+          <p>Do not wait until you are on stage to discover that a sentence sounds awkward or an important point is missing.</p>
+        </div>
+        <div class="workflow">
+          <article><span class="step-number">1</span><h3>Import your deck</h3><p>Choose a PPT or PPTX from Files. For Keynote, export a PowerPoint copy first.</p></article>
+          <article><span class="step-number">2</span><h3>Listen from slide one</h3><p>Play the whole deck and follow the slides while Tingbo reads each note.</p></article>
+          <article><span class="step-number">3</span><h3>Revise and repeat</h3><p>Edit anything that sounds unnatural, then listen through it two or three times.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="demo" aria-labelledby="demo-title">
+      <div class="section-inner media-layout">
+        <div class="media-copy">
+          <p class="eyebrow">Product demo</p>
+          <h2 id="demo-title">See the core flow on an iPhone</h2>
+          <p>This recording from the local iOS project shows slide browsing, visible speaker notes, and playback controls in the actual app interface.</p>
+          <p><a href="/presentation-rehearsal/">Read the presentation rehearsal guide</a></p>
+        </div>
+        <figure class="video-frame">
+          <video controls playsinline preload="metadata" poster="/images/en-slide-and-script.webp" aria-label="Tingbo iPhone app demonstration">
+            <source src="/demo.mp4" type="video/mp4">
+            Your browser does not support embedded video.
+          </video>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-soft" aria-labelledby="platform-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">Platforms and languages</p>
+          <h2 id="platform-title">Available on iOS</h2>
+          <p>The iOS download is public. Android and HarmonyOS editions exist as separate local projects; public store availability can vary by region.</p>
+        </div>
+        <table class="platform-table">
+          <tbody>
+            <tr><th scope="row">iPhone and iPad</th><td><span class="status-live">Available now</span><br><a href="https://apps.apple.com/us/app/id6806785922" rel="noopener">Open the App Store listing</a></td></tr>
+            <tr><th scope="row">Android</th><td><span class="status-info">Edition supported</span><br>No public store link is listed on this site yet.</td></tr>
+            <tr><th scope="row">HarmonyOS</th><td><span class="status-info">Edition supported</span><br>No public store link is listed on this site yet.</td></tr>
+            <tr><th scope="row">Interface languages</th><td>iOS follows the system language for English, Simplified and Traditional Chinese, Japanese, Korean, Spanish, French, German, Portuguese, Russian, Arabic, and Hindi. Other system languages fall back to English.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="section-inner faq">
+        <div class="section-heading">
+          <p class="eyebrow">Clear answers</p>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <details open><summary>What is Tingbo?</summary><p>Tingbo is a presentation rehearsal app. It displays each slide and reads its speaker notes aloud, helping presenters learn the order, wording, and key points before a report, lesson, meeting, or talk.</p></details>
+        <details><summary>How do I make PowerPoint speaker notes read aloud?</summary><p>Import a PPT or PPTX, go to the first slide, and tap Play. Tingbo reads the current slide's note and automatically moves to the next slide when narration finishes.</p></details>
+        <details><summary>Does Tingbo support PPT, PPTX, and Keynote?</summary><p>Tingbo imports PPT and PPTX files. For a Keynote <code>.key</code> file, open it in Keynote, export a PowerPoint copy, save the PPTX to Files, and import that copy into Tingbo.</p></details>
+        <details><summary>Are presentation files uploaded to a server?</summary><p>Image-based PPTX files can be read locally. Legacy PPT files and PPTX files with editable layouts may be uploaded only when a rendering conversion is required. The current iOS configuration requests a conversion job through a Cloudflare Worker, then uploads the selected file directly to CloudConvert. Imported history stays in the app, while speech playback uses the device's system text-to-speech engine. See the <a href="/privacy.html">Privacy Policy</a> for details.</p></details>
+        <details><summary>Can I edit and export speaker notes?</summary><p>Yes. Open the current slide's notes, edit the script, and save it for playback. You can export speaker notes as Markdown or export a PPTX copy from the app.</p></details>
+        <details><summary>Can Tingbo play in the background or through headphones?</summary><p>Yes. Background playback and headphone output are supported. Tingbo pauses automatically when headphones are disconnected.</p></details>
+        <details><summary>Do I need an account?</summary><p>No. Tingbo does not require registration or login.</p></details>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="section-inner cta-row">
+        <div><h2>Hear the script before you present.</h2><p>Import your deck, listen from slide one, and rehearse until it feels natural.</p></div>
+        <a class="button" href="https://apps.apple.com/us/app/id6806785922" rel="noopener">Download for iPhone and iPad</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Tingbo. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="/features/">Features</a>
+        <a href="/how-to-read-ppt-notes-aloud/">PPT notes guide</a>
+        <a href="mailto:m15568817011@163.com">Support</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/zh/" lang="zh-Hans">中文</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

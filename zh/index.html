@@ -1,98 +1,277 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>PPT 听稿 - 汇报练习助手 — 技术支持</title>
-    <meta name="description" content="PPT 听稿 - 汇报练习助手 的技术支持页面：导入演示文稿、逐页朗读备注、常见问题与联系方式。" />
-    <style>
-          :root { --bg: #f7f8fa; --card: #ffffff; --text: #1f2328; --muted: #656d76; --accent: #2f6fed; --border: #d8dee4; }
-          * { box-sizing: border-box; }
-          body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; line-height: 1.7; }
-          .container { max-width: 760px; margin: 0 auto; padding: 40px 20px 60px; }
-          .lang-switch { text-align: right; margin-bottom: 10px; }
-          .lang-switch a { font-size: .9rem; }
-          header.app { text-align: center; padding: 24px 0 8px; }
-          .app-icon { width: 84px; height: 84px; border-radius: 20px; background: linear-gradient(135deg, #2f6fed, #7b4de8); display: inline-flex; align-items: center; justify-content: center; color: #fff; font-size: 40px; font-weight: 800; box-shadow: 0 8px 24px rgba(47,111,237,.25); }
-          h1 { font-size: 1.7rem; margin: 18px 0 4px; }
-          .subtitle { color: var(--muted); margin: 0 0 28px; }
-          .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px 26px; margin-bottom: 20px; }
-          h2 { font-size: 1.2rem; margin: 0 0 14px; }
-          h3 { font-size: 1rem; margin: 22px 0 6px; }
-          p { margin: 8px 0; }
-          ul { margin: 8px 0; padding-left: 22px; }
-          li { margin: 5px 0; }
-          a { color: var(--accent); text-decoration: none; }
-          a:hover { text-decoration: underline; }
-          .contact-big { display: flex; align-items: center; gap: 10px; background: #eef3ff; border: 1px solid #cddbff; border-radius: 10px; padding: 14px 18px; margin-top: 6px; word-break: break-all; }
-          footer { text-align: center; color: var(--muted); font-size: .9rem; margin-top: 28px; }
-          @media (max-width: 520px) { .container { padding: 24px 14px 48px; } .card { padding: 18px 18px; } }
-        </style>
-  </head>
-  <body>
-      <div class="container">
-            <div class="lang-switch"><a href="../">English</a>a> · 中文</div>div>
-            <header class="app">
-                    <div class="app-icon">🎙️</div>div>
-                    <h1>PPT 听稿 - 汇报练习助手</h1>
-                  <p class="subtitle">逐页朗读备注，反复听熟你的汇报讲稿</p>p>
-            </header>header>
-          <section class="card">
-                <h2>技术支持</h2>
-                <p>感谢你使用 PPT 听稿 - 汇报练习助手。这款应用会把演示文稿里的备注逐页朗读出来，让你在正式汇报前反复听熟讲稿。</p>
-                <p>如果遇到任何问题，下面的常见问题可以帮你解决大部分疑问。如果仍然需要帮助，请发邮件联系我们，我们会尽快回复。</p>
-                <div class="contact-big"><span>📧</span><a href="mailto:m15568817011@163.com">m15568817011@163.com</a>a></div>div>
-          </section>section>
-          <section class="card">
-                <h2>常见问题</h2>
-                <h3>如何导入演示文稿？</h3>
-                <p>打开 App，点击导入按钮，从「文件」App（或通过隔空投送、邮件等方式）选择一个 <strong>PPT</strong> 或 <strong>PPTX</strong> 文件。App 会自动转换并展示每一页幻灯片和对应的备注。</p>
-                <h3>支持哪些文件格式？</h3>
-                <ul>
-                          <li><strong>PPTX</strong> — 推荐，完整支持。</li>
-                        <li><strong>PPT</strong> — 支持。</li>
-                        <li><strong>Keynote（.key）</strong>strong> — 先在 Keynote 中打开文件，导出为 PowerPoint 的 <code>.pptx</code> 副本并保存到「文件」，再在 App 中导入该副本。</li>
-                </ul>
-                <h3>App 没有朗读我的备注？</h3>
-                <ul>
-                        <li>请确认幻灯片中确实写入了备注（在演示文稿的「备注」区域添加的文字）。</li>
-                        <li>检查设备是否静音、音量是否已调大。</li>
-                        <li>可以尝试切换语言/嗓音：PPT 听稿 使用的是 iOS 系统语音，朗读嗓音跟随系统设置。</li>
-                        <li>如果编辑过备注，请先关闭再重新打开备注编辑框，让改动生效。</li>
-                </ul>
-                <h3>没有声音，或声音很小？</h3>
-                <ul>
-                        <li>调大音量，并确认设备没有处于静音状态。</li>
-                        <li>如果使用耳机，请检查连接；拔出耳机时 App 会自动暂停播放。</li>
-                        <li>检查 iOS 的「响铃/静音」开关和「控制中心」的音量。</li>
-                </ul>
-                <h3>为什么 PPT / PPTX 文件需要转换？</h3>
-                <p>App 会把每一页渲染成幻灯片图片后再朗读。对于 PPT 和 PPTX 文件，转换可以走你自己局域网内的本地服务（默认），也可以走开发者配置的云端转换服务。如果看到网络/转换相关错误，请检查网络后重试，或联系我们。</p>
-                <h3>如何编辑我的备注？</h3>
-                <p>点击备注按钮打开当前页的备注，可以直接编辑文字，编辑完成后关闭即可。下次播放这一页时会使用更新后的文字。</p>
-                <h3>可以后台播放吗？</h3>
-                <p>可以。App 支持后台音频播放，也可以通过耳机继续收听。拔出耳机时会自动暂停。</p>
-                <h3>如何切换横竖屏？</h3>
-                <p>直接旋转设备即可。你还可以像在「照片」App 里一样双指缩放、左右滑动切换幻灯片。</p>
-                <h3>我发现了 Bug，或有功能建议？</h3>
-                <p>请发邮件到 <a href="mailto:m15568817011@163.com">m15568817011@163.com</a>a>。提供以下信息可以帮助我们更快定位问题：</p>
-                <ul>
-                        <li>你的 iOS 版本和设备型号。</li>
-                        <li>App 版本（见 App Store 页面）。</li>
-                        <li>问题描述和复现步骤。</li>
-                        <li>如有可能，附上截图或录屏。</li>
-                </ul>
-          </section>section>
-          <section class="card">
-                <h2>联系我们</h2>
-                <p>关于 App、你的数据或本网站的任何问题，请联系我们：</p>
-                <div class="contact-big"><span>📧</span><a href="mailto:m15568817011@163.com">m15568817011@163.com</a>a></div>div>
-          </section>section>
-          <footer><p>© 2026 PPT Narrator. 保留所有权利。 · <a href="privacy.html">隐私政策</a>a> · <a href="terms.html">用户协议</a>a></p>p></footer>
-      </div>div>
-  </body>
-</html>html></footer></p></li></li></p></p></code></li></strong></strong></li>
-                </ul></strong></strong></span></p></p></h2></h1>
-  </body>
-    </style></title>
-  </head>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>听播 Tingbo · PPT听稿 | PPT备注朗读与汇报练习</title>
+  <meta name="description" content="听播逐页朗读 PPT、PPTX 备注，支持自动翻页、讲稿编辑、后台与耳机播放。汇报前反复听熟讲稿，上台更从容。">
+  <meta name="keywords" content="PPT备注朗读,PPT听稿,演讲练习,汇报讲稿,幻灯片备注,自动翻页,文本转语音">
+  <meta name="theme-color" content="#062832">
+  <meta name="apple-itunes-app" content="app-id=6806785922">
+  <link rel="canonical" href="https://ppt-narrator.github.io/zh/">
+  <link rel="alternate" hreflang="en" href="https://ppt-narrator.github.io/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://ppt-narrator.github.io/zh/">
+  <link rel="alternate" hreflang="x-default" href="https://ppt-narrator.github.io/">
+  <link rel="icon" href="/images/tingbo-app-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/images/tingbo-app-icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="听播 Tingbo">
+  <meta property="og:title" content="听播 Tingbo · PPT听稿">
+  <meta property="og:description" content="把讲稿听熟，上台更从容。逐页朗读 PPT 备注，边听边改，自动翻页。">
+  <meta property="og:url" content="https://ppt-narrator.github.io/zh/">
+  <meta property="og:image" content="https://ppt-narrator.github.io/images/og-zh.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="听播显示 PPT 幻灯片、备注讲稿和播放控制">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="听播 Tingbo · PPT听稿">
+  <meta name="twitter:description" content="逐页朗读 PPT 备注，汇报前反复听熟自己的讲稿。">
+  <meta name="twitter:image" content="https://ppt-narrator.github.io/images/og-zh.jpg">
+  <meta property="al:ios:app_store_id" content="6806785922">
+  <meta property="al:ios:app_name" content="听播 Tingbo · PPT听稿">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://ppt-narrator.github.io/zh/#app",
+        "name": "听播 Tingbo · PPT听稿",
+        "alternateName": "Tingbo: PPT Notes Reader",
+        "url": "https://ppt-narrator.github.io/zh/",
+        "downloadUrl": "https://apps.apple.com/us/app/id6806785922",
+        "applicationCategory": "ProductivityApplication",
+        "applicationSubCategory": "演示文稿工具",
+        "operatingSystem": "iOS",
+        "isAccessibleForFree": true,
+        "inLanguage": "zh-Hans",
+        "description": "听播会逐页朗读 PowerPoint 备注，帮助用户通过反复收听练习汇报讲稿。",
+        "image": "https://ppt-narrator.github.io/images/og-zh.jpg",
+        "screenshot": [
+          "https://ppt-narrator.github.io/images/zh-notes-to-audio.webp",
+          "https://ppt-narrator.github.io/images/zh-slide-and-script.webp",
+          "https://ppt-narrator.github.io/images/zh-edit-and-rehearse.webp"
+        ],
+        "featureList": [
+          "导入 PPT 和 PPTX 演示文稿",
+          "逐页朗读备注",
+          "朗读完成后自动翻页",
+          "编辑当前页讲稿",
+          "后台播放和耳机输出",
+          "横竖屏、缩放和相册式翻页",
+          "导出 PPTX 或 Markdown 备注"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ppt-narrator.github.io/zh/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "听播是什么？",
+            "acceptedAnswer": { "@type": "Answer", "text": "听播是一款汇报练习 App，会展示每一页幻灯片并朗读对应备注，帮助用户在上台前熟悉内容顺序、表达和重点。" }
+          },
+          {
+            "@type": "Question",
+            "name": "如何让 PPT 备注自动朗读？",
+            "acceptedAnswer": { "@type": "Answer", "text": "把 PPT 或 PPTX 导入听播，从第一页点击播放。App 会朗读当前页备注，朗读完成后自动切换到下一页。" }
+          },
+          {
+            "@type": "Question",
+            "name": "听播支持 PPT、PPTX 和 Keynote 吗？",
+            "acceptedAnswer": { "@type": "Answer", "text": "听播可以导入 PPT 和 PPTX。Keynote 文件需要先在 Keynote 中导出 PowerPoint 副本，再导入生成的 PPTX。" }
+          },
+          {
+            "@type": "Question",
+            "name": "演示文稿会上传服务器吗？",
+            "acceptedAnswer": { "@type": "Answer", "text": "全页图片型 PPTX 可以在本地读取。旧版 PPT 或包含可编辑排版的演示文稿仅在需要转换时发送到配置的转换服务，备注朗读使用设备系统语音。" }
+          },
+          {
+            "@type": "Question",
+            "name": "可以编辑 PPT 备注吗？",
+            "acceptedAnswer": { "@type": "Answer", "text": "可以。打开当前页备注，编辑讲稿并保存，下次播放会使用更新后的内容，还可以把备注导出为 Markdown。" }
+          },
+          {
+            "@type": "Question",
+            "name": "听播可以后台或耳机播放吗？",
+            "acceptedAnswer": { "@type": "Answer", "text": "可以。听播支持后台音频和耳机输出，耳机断开时会自动暂停。" }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="zh">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="brand" href="/zh/">
+        <img src="/images/tingbo-app-icon.png" alt="听播 App 图标" width="42" height="42">
+        <span>听播 Tingbo</span>
+      </a>
+      <div class="nav-links">
+        <a href="/zh/features/">功能</a>
+        <a class="optional" href="/zh/ppt备注朗读/">使用方法</a>
+        <a class="optional" href="#faq">常见问题</a>
+        <a href="/" lang="en">English</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero hero-zh">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">用收听的方式练习汇报</p>
+          <h1>听播 Tingbo · PPT听稿</h1>
+          <p class="hero-lede">把讲稿听熟，上台更从容。让每一页 PPT 备注自动变成语音，边听边改，汇报前把整份讲稿完整听两到三遍。</p>
+          <div class="actions">
+            <a class="button" href="https://apps.apple.com/us/app/id6806785922" rel="noopener">前往 App Store 下载</a>
+            <a class="button button-secondary" href="#demo">观看 App 演示</a>
+          </div>
+          <p class="hero-facts">支持 iPhone 与 iPad · 导入 PPT/PPTX · 无需注册账号</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="features-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">听、改、再练一遍</p>
+          <h2 id="features-title">幻灯片和讲稿始终同步</h2>
+          <p>听播把当前幻灯片、对应备注和播放控制放在同一个界面，让每次练习都按真实汇报的顺序进行。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-item"><strong><span class="feature-mark">01</span> 备注自动朗读</strong><p>使用设备系统语音，按页朗读演示文稿里的备注。</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">02</span> 播完自动翻页</strong><p>当前页讲稿读完后立即进入下一页，连续听完整份汇报。</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">03</span> 边听边改讲稿</strong><p>遇到不顺口的句子，打开当前页备注编辑保存，再播放检查。</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">04</span> 相册式浏览</strong><p>左右滑动、横竖屏切换和双指缩放，查看幻灯片细节。</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">05</span> 后台和耳机播放</strong><p>锁屏后继续听稿，也可通过耳机输出；耳机断开时自动暂停。</p></article>
+          <article class="feature-item"><strong><span class="feature-mark">06</span> 历史与导出</strong><p>集中管理导入记录，导出 PPTX 副本或 Markdown 备注。</p></article>
+        </div>
+        <div class="actions"><a class="button" href="/zh/features/">查看全部功能</a></div>
+      </div>
+    </section>
+
+    <section class="section section-dark" aria-labelledby="screens-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">真实 App 界面</p>
+          <h2 id="screens-title">为反复练习而设计</h2>
+          <p>导入、收听、修改、再听一遍。用简单稳定的流程把讲稿听熟，而不是临场硬背。</p>
+        </div>
+        <div class="screenshot-grid">
+          <figure class="screenshot">
+            <img src="/images/zh-notes-to-audio.webp" width="720" height="1461" loading="lazy" alt="听播逐页朗读 PPT 备注并自动翻页">
+            <figcaption>每页备注自动变成语音，播放结束继续下一页。</figcaption>
+          </figure>
+          <figure class="screenshot">
+            <img src="/images/zh-slide-and-script.webp" width="720" height="1461" loading="lazy" alt="听播同时显示 PPT 幻灯片和当前页讲稿">
+            <figcaption>边看幻灯片，边听自己的讲稿。</figcaption>
+          </figure>
+          <figure class="screenshot">
+            <img src="/images/zh-edit-and-rehearse.webp" width="720" height="1461" loading="lazy" alt="在听播中编辑当前 PPT 页的备注讲稿">
+            <figcaption>不顺口的句子立即修改，再播放确认。</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" aria-labelledby="workflow-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">实用的汇报练习方法</p>
+          <h2 id="workflow-title">不要等上台后才发现讲稿不顺</h2>
+          <p>提前完整听一遍，更容易发现表达生硬、内容缺失和页面衔接不自然的问题。</p>
+        </div>
+        <div class="workflow">
+          <article><span class="step-number">1</span><h3>导入演示文稿</h3><p>从「文件」中选择 PPT 或 PPTX。Keynote 请先导出 PowerPoint 副本。</p></article>
+          <article><span class="step-number">2</span><h3>从第一页开始听</h3><p>点击播放，跟着幻灯片顺序把整份讲稿完整听一遍。</p></article>
+          <article><span class="step-number">3</span><h3>修改后再听两遍</h3><p>把不自然的句子改顺，至少再听两到三遍，熟悉顺序和重点。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="demo" aria-labelledby="demo-title">
+      <div class="section-inner media-layout">
+        <div class="media-copy">
+          <p class="eyebrow">产品演示</p>
+          <h2 id="demo-title">查看 iPhone 上的实际使用流程</h2>
+          <p>这段本地 iOS 项目录屏展示了幻灯片浏览、备注查看和播放控制，画面来自真实 App 界面。</p>
+          <p><a href="/zh/presentation-rehearsal/">阅读汇报练习指南</a></p>
+        </div>
+        <figure class="video-frame">
+          <video controls playsinline preload="metadata" poster="/images/zh-slide-and-script.webp" aria-label="听播 iPhone App 功能演示">
+            <source src="/demo.mp4" type="video/mp4">
+            你的浏览器不支持嵌入视频。
+          </video>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-soft" aria-labelledby="platform-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">平台和语言</p>
+          <h2 id="platform-title">iOS 版已提供下载</h2>
+          <p>iOS 下载地址已经公开。Android 和 HarmonyOS 为独立版本，公开应用市场的上架情况可能因地区不同。</p>
+        </div>
+        <table class="platform-table">
+          <tbody>
+            <tr><th scope="row">iPhone 与 iPad</th><td><span class="status-live">现在可用</span><br><a href="https://apps.apple.com/us/app/id6806785922" rel="noopener">打开 App Store 页面</a></td></tr>
+            <tr><th scope="row">Android</th><td><span class="status-info">已有对应版本</span><br>本站暂未提供公开应用市场链接。</td></tr>
+            <tr><th scope="row">HarmonyOS</th><td><span class="status-info">已有对应版本</span><br>本站暂未提供公开应用市场链接。</td></tr>
+            <tr><th scope="row">界面语言</th><td>iOS 会根据系统语言显示英文、简体中文、繁体中文、日语、韩语、西班牙语、法语、德语、葡萄牙语、俄语、阿拉伯语或印地语；未匹配时显示英文。</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="section-inner faq">
+        <div class="section-heading">
+          <p class="eyebrow">直接回答常见问题</p>
+          <h2 id="faq-title">关于 PPT 备注朗读</h2>
+        </div>
+        <details open><summary>听播是什么？</summary><p>听播是一款汇报练习 App，会展示每一页幻灯片并朗读对应备注，帮助汇报、演讲、授课或开会的人在上台前熟悉内容顺序、表达和重点。</p></details>
+        <details><summary>如何让 PPT 备注自动朗读？</summary><p>导入 PPT 或 PPTX，从第一页点击播放。听播会朗读当前页备注，并在朗读结束后自动切换到下一页。</p></details>
+        <details><summary>支持 PPT、PPTX 和 Keynote 吗？</summary><p>听播支持导入 PPT 和 PPTX。对于 Keynote 的 <code>.key</code> 文件，请先在 Keynote 中导出 PowerPoint 副本，把生成的 PPTX 保存到「文件」后再导入。</p></details>
+        <details><summary>演示文稿会上传服务器吗？</summary><p>全页图片型 PPTX 可以在本地读取。旧版 PPT 或包含可编辑排版的 PPTX 仅在渲染转换确有需要时上传。当前 iOS 配置会先通过 Cloudflare Worker 创建转换任务，再把用户选择的文件直接上传到 CloudConvert；导入历史保存在 App 内，备注朗读使用设备系统语音。详情见<a href="/zh/privacy.html">隐私政策</a>。</p></details>
+        <details><summary>可以编辑和导出备注吗？</summary><p>可以。打开当前页备注，修改讲稿并保存，下次播放会使用更新后的内容。还可以导出 Markdown 备注或 PPTX 副本。</p></details>
+        <details><summary>可以后台和耳机播放吗？</summary><p>可以。听播支持后台音频和耳机输出，耳机断开时会自动暂停。</p></details>
+        <details><summary>需要注册账号吗？</summary><p>不需要。听播没有注册或登录流程。</p></details>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="section-inner cta-row">
+        <div><h2>把讲稿听熟，上台更从容。</h2><p>导入演示文稿，从第一页播放，练到整份讲稿自然流畅。</p></div>
+        <a class="button" href="https://apps.apple.com/us/app/id6806785922" rel="noopener">下载 iPhone 与 iPad 版</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 听播 Tingbo. 保留所有权利。</span>
+      <div class="footer-links">
+        <a href="/zh/features/">功能</a>
+        <a href="/zh/ppt备注朗读/">PPT 备注朗读</a>
+        <a href="mailto:m15568817011@163.com">技术支持</a>
+        <a href="/zh/privacy.html">隐私政策</a>
+        <a href="/zh/terms.html">用户协议</a>
+        <a href="/" lang="en">English</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
