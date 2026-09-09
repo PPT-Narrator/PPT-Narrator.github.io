@@ -1,0 +1,9 @@
+{
+  "name": "tingbo-website",
+  "private": true,
+  "scripts": {
+    "generate:sitemap": "node scripts/generate-sitemap.mjs",
+    "check:sitemap": "node scripts/generate-sitemap.mjs --check",
+    "submit:indexnow": "node scripts/submit-indexnow.mjs"
+  }
+}

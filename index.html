@@ -37,13 +37,13 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "SoftwareApplication",
+        "@type": "MobileApplication",
         "@id": "https://ppt-narrator.github.io/#app",
         "name": "Tingbo: PPT Notes Reader",
         "alternateName": "听播 Tingbo · PPT听稿",
         "url": "https://ppt-narrator.github.io/",
         "downloadUrl": "https://apps.apple.com/us/app/id6806785922",
-        "applicationCategory": "ProductivityApplication",
+        "applicationCategory": "BusinessApplication",
         "applicationSubCategory": "Presentation software",
         "operatingSystem": "iOS",
         "isAccessibleForFree": true,
@@ -68,6 +68,18 @@
           "price": "0",
           "priceCurrency": "USD"
         }
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://ppt-narrator.github.io/#demo-video",
+        "name": "How Tingbo reads PowerPoint speaker notes aloud",
+        "description": "A short iPhone demonstration of browsing slides, viewing speaker notes, rotating the presentation, and starting note playback in Tingbo.",
+        "thumbnailUrl": "https://ppt-narrator.github.io/images/og-en.jpg",
+        "uploadDate": "2026-09-08T23:59:12+08:00",
+        "duration": "PT32S",
+        "contentUrl": "https://ppt-narrator.github.io/demo.mp4",
+        "inLanguage": ["en", "zh-Hans"],
+        "isFamilyFriendly": true
       },
       {
         "@type": "FAQPage",
@@ -207,10 +219,22 @@
           <h2 id="demo-title">See the core flow on an iPhone</h2>
           <p>This recording from the local iOS project shows slide browsing, visible speaker notes, and playback controls in the actual app interface.</p>
           <p><a href="/presentation-rehearsal/">Read the presentation rehearsal guide</a></p>
+          <details class="video-transcript">
+            <summary>Video walkthrough</summary>
+            <ol>
+              <li>Open a presentation and review the current slide with its speaker notes.</li>
+              <li>Swipe through the deck while the visible notes stay synchronized with each slide.</li>
+              <li>Rotate the iPhone to continue browsing in landscape.</li>
+              <li>Collapse or reopen the notes panel without leaving the presentation.</li>
+              <li>Tap Play to hear the current slide's notes.</li>
+            </ol>
+          </details>
         </div>
         <figure class="video-frame">
-          <video controls playsinline preload="metadata" poster="/images/en-slide-and-script.webp" aria-label="Tingbo iPhone app demonstration">
+          <video controls playsinline preload="metadata" poster="/images/og-en.jpg" aria-label="Tingbo iPhone app demonstration">
             <source src="/demo.mp4" type="video/mp4">
+            <track kind="captions" src="/captions/demo-en.vtt" srclang="en" label="English" default>
+            <track kind="captions" src="/captions/demo-zh.vtt" srclang="zh-Hans" label="简体中文">
             Your browser does not support embedded video.
           </video>
         </figure>

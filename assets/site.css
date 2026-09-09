@@ -278,6 +278,26 @@ img, video { display: block; max-width: 100%; }
 .media-copy h2 { margin: 0; font-size: 40px; line-height: 1.2; }
 .media-copy p { color: var(--muted); }
 
+.video-transcript {
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.video-transcript summary {
+  padding: 16px 0;
+  cursor: pointer;
+  font-weight: 750;
+}
+
+.video-transcript ol {
+  margin: 0 0 20px;
+  padding-left: 24px;
+  color: var(--muted);
+}
+
+.video-transcript li + li { margin-top: 8px; }
+
 .video-frame {
   margin: 0;
   padding: 14px;
