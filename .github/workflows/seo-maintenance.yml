@@ -1,0 +1,57 @@
+name: SEO maintenance
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.html"
+      - "assets/**"
+      - "captions/**"
+      - "images/**"
+      - "demo.mp4"
+      - "scripts/**"
+      - "package.json"
+      - "sitemap.xml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-maintenance
+  cancel-in-progress: true
+
+jobs:
+  maintain:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate sitemap
+        run: npm run generate:sitemap
+
+      - name: Commit refreshed sitemap
+        run: |
+          if git diff --quiet -- sitemap.xml; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          git commit -m "Refresh sitemap"
+          git push
+
+      - name: Wait for GitHub Pages
+        run: sleep 60
+
+      - name: Submit URLs to IndexNow
+        env:
+          INDEXNOW_KEY: 2bda70a0af5ebc544781080f81feb4ed
+        run: npm run submit:indexnow
