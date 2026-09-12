@@ -36,13 +36,13 @@ const pages = [
 const videos = {
   en: {
     thumbnail: "/images/og-en.jpg",
-    title: "How Tingbo reads PowerPoint speaker notes aloud",
-    description: "See Tingbo browse slides, keep speaker notes synchronized, rotate to landscape, and start note playback on an iPhone."
+    title: "Tingbo: Hear Speaker Notes",
+    description: "See how Tingbo helps users rehearse presentations by hearing, editing, and replaying speaker notes slide by slide on an iPhone."
   },
   zh: {
     thumbnail: "/images/og-zh.jpg",
-    title: "听播逐页朗读 PPT 备注演示",
-    description: "在 iPhone 上查看听播的幻灯片浏览、备注同步、横竖屏切换和讲稿播放功能。"
+    title: "听播英文功能宣传片",
+    description: "45 秒 iPhone 英文宣传片，展示听播如何逐页朗读、编辑并重复播放演讲者备注，帮助用户在上台前熟悉讲稿。"
   }
 };
 
@@ -81,7 +81,7 @@ function videoEntry(language) {
     `      <video:title>${xml(video.title)}</video:title>`,
     `      <video:description>${xml(video.description)}</video:description>`,
     `      <video:content_loc>${origin}/demo.mp4</video:content_loc>`,
-    "      <video:duration>32</video:duration>",
+    "      <video:duration>45</video:duration>",
     "      <video:family_friendly>yes</video:family_friendly>",
     "    </video:video>"
   ];

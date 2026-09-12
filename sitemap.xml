@@ -10,10 +10,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
     <video:video>
       <video:thumbnail_loc>https://tingbo.app/images/og-en.jpg</video:thumbnail_loc>
-      <video:title>How Tingbo reads PowerPoint speaker notes aloud</video:title>
-      <video:description>See Tingbo browse slides, keep speaker notes synchronized, rotate to landscape, and start note playback on an iPhone.</video:description>
+      <video:title>Tingbo: Hear Speaker Notes</video:title>
+      <video:description>See how Tingbo helps users rehearse presentations by hearing, editing, and replaying speaker notes slide by slide on an iPhone.</video:description>
       <video:content_loc>https://tingbo.app/demo.mp4</video:content_loc>
-      <video:duration>32</video:duration>
+      <video:duration>45</video:duration>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>
@@ -25,10 +25,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
     <video:video>
       <video:thumbnail_loc>https://tingbo.app/images/og-zh.jpg</video:thumbnail_loc>
-      <video:title>听播逐页朗读 PPT 备注演示</video:title>
-      <video:description>在 iPhone 上查看听播的幻灯片浏览、备注同步、横竖屏切换和讲稿播放功能。</video:description>
+      <video:title>听播英文功能宣传片</video:title>
+      <video:description>45 秒 iPhone 英文宣传片，展示听播如何逐页朗读、编辑并重复播放演讲者备注，帮助用户在上台前熟悉讲稿。</video:description>
       <video:content_loc>https://tingbo.app/demo.mp4</video:content_loc>
-      <video:duration>32</video:duration>
+      <video:duration>45</video:duration>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>
