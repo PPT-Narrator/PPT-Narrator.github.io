@@ -5,7 +5,7 @@ import path from "node:path";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sitemapPath = path.join(root, "sitemap.xml");
-const origin = "https://ppt-narrator.github.io";
+const origin = "https://tingbo.app";
 const today = new Date().toISOString().slice(0, 10);
 
 const pairs = {

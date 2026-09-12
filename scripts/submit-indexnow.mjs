@@ -4,7 +4,7 @@ import path from "node:path";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const key = process.env.INDEXNOW_KEY || "2bda70a0af5ebc544781080f81feb4ed";
-const host = "ppt-narrator.github.io";
+const host = "tingbo.app";
 const sitemap = readFileSync(path.join(root, "sitemap.xml"), "utf8");
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 
