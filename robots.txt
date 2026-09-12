@@ -4,4 +4,4 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-Sitemap: https://ppt-narrator.github.io/sitemap.xml
+Sitemap: https://tingbo.app/sitemap.xml
