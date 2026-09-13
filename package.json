@@ -2,6 +2,7 @@
   "name": "tingbo-website",
   "private": true,
   "scripts": {
+    "check:analytics": "node scripts/check-analytics.mjs",
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
     "check:sitemap": "node scripts/generate-sitemap.mjs --check",
     "submit:indexnow": "node scripts/submit-indexnow.mjs"
