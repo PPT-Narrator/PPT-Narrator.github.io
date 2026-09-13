@@ -15,6 +15,7 @@
   <link rel="icon" href="/images/tingbo-app-icon.png" type="image/png">
   <link rel="apple-touch-icon" href="/images/tingbo-app-icon.png">
   <link rel="stylesheet" href="/assets/site.css">
+  <script src="/assets/story-video.js" defer></script>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="听播 Tingbo">
   <meta property="og:title" content="听播 Tingbo · PPT听稿">
@@ -80,6 +81,18 @@
         "duration": "PT45S",
         "contentUrl": "https://tingbo.app/demo.mp4",
         "inLanguage": "en",
+        "isFamilyFriendly": true
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://tingbo.app/zh/#story-video",
+        "name": "稿子准备好了 — 听播故事短片",
+        "description": "一段关于上台卡壳、听稿练习，再到用自己的话讲清楚的中文配音卡通短片。",
+        "thumbnailUrl": "https://tingbo.app/images/story-zh.jpg",
+        "uploadDate": "2026-09-13",
+        "duration": "PT75.8S",
+        "contentUrl": "https://tingbo.app/videos/story-zh.mp4",
+        "inLanguage": "zh-Hans",
         "isFamilyFriendly": true
       },
       {
@@ -238,6 +251,35 @@
             <track kind="captions" src="/captions/demo-en.vtt" srclang="en" label="English">
             你的浏览器不支持嵌入视频。
           </video>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="story" aria-labelledby="story-title">
+      <div class="section-inner media-layout story-layout">
+        <div class="media-copy story-copy">
+          <p class="eyebrow">听播故事短片</p>
+          <h2 id="story-title">PPT 准备好了，你呢？</h2>
+          <p>幻灯片改了一遍又一遍，可一轮到自己开口，却突然卡住了。看一段从听熟讲稿，到用自己的话讲清楚的故事。</p>
+          <p class="story-duration">花 75 秒，看一次上台前的转变。</p>
+          <div class="actions">
+            <a class="button" href="https://apps.apple.com/us/app/id6806785922" rel="noopener">下载听播，开始练习</a>
+          </div>
+        </div>
+        <figure class="story-frame">
+          <div class="story-player">
+          <video id="story-video" controls playsinline preload="none" width="1080" height="1920" poster="/images/story-zh.jpg" aria-label="稿子准备好了 — 听播中文配音卡通短片" aria-describedby="story-caption">
+            <source src="/videos/story-zh.mp4" type="video/mp4">
+            <track kind="captions" src="/captions/story-zh.vtt" srclang="zh-Hans" label="简体中文">
+            <a href="/videos/story-zh.mp4">打开 MP4 观看短片。</a>
+          </video>
+          <button class="story-play" type="button" aria-controls="story-video" hidden>
+            <img src="/images/story-zh.jpg" width="540" height="960" loading="lazy" alt="">
+            <span class="story-play-label"><span aria-hidden="true">▶</span> 播放短片</span>
+          </button>
+          </div>
+          <p class="story-error" hidden>无法播放？<a href="/videos/story-zh.mp4">直接打开视频。</a></p>
+          <figcaption id="story-caption">中文配音 · 中文字幕 · 1 分 16 秒</figcaption>
         </figure>
       </div>
     </section>

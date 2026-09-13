@@ -37,12 +37,26 @@ const videos = {
   en: {
     thumbnail: "/images/og-en.jpg",
     title: "Tingbo: Hear Speaker Notes",
-    description: "See how Tingbo helps users rehearse presentations by hearing, editing, and replaying speaker notes slide by slide on an iPhone."
+    description: "See how Tingbo helps users rehearse presentations by hearing, editing, and replaying speaker notes slide by slide on an iPhone.",
+    story: {
+      thumbnail: "/images/story-en.jpg",
+      title: "The Slides Were Ready — a Tingbo story",
+      description: "A short animated story about a presenter who finds his own words by listening and rehearsing.",
+      content: "/videos/story-en.mp4",
+      duration: 76
+    }
   },
   zh: {
     thumbnail: "/images/og-zh.jpg",
     title: "听播英文功能宣传片",
-    description: "45 秒 iPhone 英文宣传片，展示听播如何逐页朗读、编辑并重复播放演讲者备注，帮助用户在上台前熟悉讲稿。"
+    description: "45 秒 iPhone 英文宣传片，展示听播如何逐页朗读、编辑并重复播放演讲者备注，帮助用户在上台前熟悉讲稿。",
+    story: {
+      thumbnail: "/images/story-zh.jpg",
+      title: "稿子准备好了 — 听播故事短片",
+      description: "一段关于上台卡壳、听稿练习，再到用自己的话讲清楚的中文配音卡通短片。",
+      content: "/videos/story-zh.mp4",
+      duration: 76
+    }
   }
 };
 
@@ -75,16 +89,16 @@ function alternateLinks(page) {
 function videoEntry(language) {
   const video = videos[language];
   if (!video) return [];
-  return [
+  return [video, video.story].flatMap(item => [
     "    <video:video>",
-    `      <video:thumbnail_loc>${origin}${video.thumbnail}</video:thumbnail_loc>`,
-    `      <video:title>${xml(video.title)}</video:title>`,
-    `      <video:description>${xml(video.description)}</video:description>`,
-    `      <video:content_loc>${origin}/demo.mp4</video:content_loc>`,
-    "      <video:duration>45</video:duration>",
+    `      <video:thumbnail_loc>${origin}${item.thumbnail}</video:thumbnail_loc>`,
+    `      <video:title>${xml(item.title)}</video:title>`,
+    `      <video:description>${xml(item.description)}</video:description>`,
+    `      <video:content_loc>${origin}${item.content || "/demo.mp4"}</video:content_loc>`,
+    `      <video:duration>${item.duration || 45}</video:duration>`,
     "      <video:family_friendly>yes</video:family_friendly>",
     "    </video:video>"
-  ];
+  ]);
 }
 
 const lines = [
