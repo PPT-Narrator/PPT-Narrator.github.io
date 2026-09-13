@@ -35,6 +35,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Check analytics integration
+        run: npm run check:analytics
+
       - name: Generate sitemap
         run: npm run generate:sitemap
 
