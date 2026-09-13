@@ -9,6 +9,7 @@ on:
       - "captions/**"
       - "images/**"
       - "demo.mp4"
+      - "videos/**"
       - "scripts/**"
       - "package.json"
       - "sitemap.xml"
