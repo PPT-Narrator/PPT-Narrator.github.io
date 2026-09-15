@@ -119,6 +119,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
   </url>
   <url>
+    <loc>https://tingbo.app/android/privacy.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/android/zh/privacy.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
     <loc>https://tingbo.app/harmony/privacy.html</loc>
     <lastmod>2026-09-13</lastmod>
   </url>

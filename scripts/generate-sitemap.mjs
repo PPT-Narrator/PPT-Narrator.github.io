@@ -14,6 +14,7 @@ const pairs = {
   notes: { en: "/how-to-read-ppt-notes-aloud/", zh: "/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" },
   rehearsal: { en: "/presentation-rehearsal/", zh: "/zh/presentation-rehearsal/" },
   privacy: { en: "/privacy.html", zh: "/zh/privacy.html" },
+  androidPrivacy: { en: "/android/privacy.html", zh: "/android/zh/privacy.html" },
   terms: { en: "/terms.html", zh: "/zh/terms.html" }
 };
 
@@ -30,6 +31,8 @@ const pages = [
   { url: "/zh/privacy.html", source: "zh/privacy.html", pair: "privacy" },
   { url: "/terms.html", source: "terms.html", pair: "terms" },
   { url: "/zh/terms.html", source: "zh/terms.html", pair: "terms" },
+  { url: "/android/privacy.html", source: "android/privacy.html", pair: "androidPrivacy" },
+  { url: "/android/zh/privacy.html", source: "android/zh/privacy.html", pair: "androidPrivacy" },
   { url: "/harmony/privacy.html", source: "harmony/privacy.html" }
 ];
 
