@@ -1,0 +1,7 @@
+.legal-language-menu { position: relative; z-index: 10; width: fit-content; margin: 0 0 20px auto; text-align: start; }
+.legal-language-menu summary { cursor: pointer; font-size: .95rem; }
+.legal-language-menu .language-options { position: absolute; top: calc(100% + 8px); right: 0; width: min(280px, 80vw); max-height: min(68vh, 430px); overflow: auto; display: grid; padding: 8px; border: 1px solid #d9e2e1; border-radius: 10px; background: #fff; box-shadow: 0 12px 30px #11222a22; }
+.legal-language-menu a { display: block; padding: 7px 10px; border-radius: 6px; color: #096b70; text-decoration: none; }
+.legal-language-menu a:hover, .legal-language-menu a[aria-current] { background: #eef6f4; }
+html[dir="rtl"] .legal-language-menu { margin: 0 auto 20px 0; }
+html[dir="rtl"] .legal-language-menu .language-options { left: 0; right: auto; }

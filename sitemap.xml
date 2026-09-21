@@ -4,9 +4,19 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://tingbo.app/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
     <video:video>
       <video:thumbnail_loc>https://tingbo.app/images/og-en.jpg</video:thumbnail_loc>
@@ -27,9 +37,19 @@
   </url>
   <url>
     <loc>https://tingbo.app/zh/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
     <video:video>
       <video:thumbnail_loc>https://tingbo.app/images/og-zh.jpg</video:thumbnail_loc>
@@ -50,90 +70,1572 @@
   </url>
   <url>
     <loc>https://tingbo.app/features/</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
   </url>
   <url>
     <loc>https://tingbo.app/zh/features/</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
   </url>
   <url>
     <loc>https://tingbo.app/how-to-read-ppt-notes-aloud/</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
   </url>
   <url>
     <loc>https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
   </url>
   <url>
     <loc>https://tingbo.app/presentation-rehearsal/</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
   </url>
   <url>
     <loc>https://tingbo.app/zh/presentation-rehearsal/</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
   </url>
   <url>
     <loc>https://tingbo.app/privacy.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
   </url>
   <url>
     <loc>https://tingbo.app/zh/privacy.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
   </url>
   <url>
     <loc>https://tingbo.app/terms.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
   </url>
   <url>
     <loc>https://tingbo.app/zh/terms.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
   </url>
   <url>
     <loc>https://tingbo.app/android/privacy.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
   </url>
   <url>
     <loc>https://tingbo.app/android/zh/privacy.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
   </url>
   <url>
     <loc>https://tingbo.app/harmony/privacy.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/zh-hant/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/zh-hant/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/zh-hant/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/zh-hant/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/zh-hant/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/zh-hant/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/zh-hant/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/zh-hant/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ja/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ja/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ja/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ja/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ja/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ja/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ja/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ja/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ko/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ko/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ko/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ko/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ko/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ko/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ko/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ko/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/es/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/es/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/es/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/es/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/es/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/es/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/es/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/es/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/fr/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/fr/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/fr/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/fr/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/fr/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/fr/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/fr/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/fr/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/de/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/de/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/de/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/de/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/de/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/de/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/de/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/de/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/pt-br/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/pt-br/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/pt-br/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/pt-br/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/pt-br/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/pt-br/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/pt-br/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/pt-br/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ru/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ru/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ru/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ru/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ru/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ru/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ru/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ru/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ar/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ar/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ar/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ar/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ar/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ar/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ar/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/ar/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/hi/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/hi/features/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/features/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/features/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/features/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/features/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/features/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/features/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/features/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/features/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/features/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/hi/notes-guide/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/notes-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/hi/rehearsal/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/rehearsal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/presentation-rehearsal/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/hi/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/hi/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/terms.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/hi/android/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/android/zh/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/android/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/android/privacy.html" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/hi/harmony/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tingbo.app/ja/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tingbo.app/ko/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tingbo.app/es/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tingbo.app/fr/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tingbo.app/de/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tingbo.app/pt-br/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tingbo.app/ru/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tingbo.app/ar/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tingbo.app/hi/harmony/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
   </url>
 </urlset>

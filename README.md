@@ -16,6 +16,10 @@ The site is published from the `main` branch root to GitHub Pages at https://tin
 
 Run `npm run check:analytics` before publishing. After changes to HTML pages, run `npm run generate:sitemap` and `npm run check:sitemap`.
 
+## Languages
+
+The site supports English, Simplified and Traditional Chinese, Japanese, Korean, Spanish, French, German, Brazilian Portuguese, Russian, Arabic, and Hindi across the home page, features, guides, and iOS/Android/HarmonyOS policy pages. Translations live in `i18n/`; the 10 added languages are generated as static HTML with `npm run generate:locales`. Existing English and Simplified Chinese pages keep their hand-authored content; update their static language menus and `hreflang` links with `npm run sync:language-links` after changing routes. Before publishing, run `npm run check:locales`, `npm run check:language-links`, `npm run check:analytics`, and `npm run check:sitemap`.
+
 To verify online, open the English and Chinese pages, confirm a single beacon is present, and check the dashboard after its processing delay. Ad blockers or network restrictions may prevent a browser visit from being counted.
 
 Official setup documentation: https://developers.cloudflare.com/web-analytics/get-started/

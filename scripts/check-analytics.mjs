@@ -4,7 +4,8 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
-const files = execFileSync("git", ["ls-files", "-z", "--", "*.html"], {
+const git = process.platform === "darwin" ? "/usr/bin/git" : "git";
+const files = execFileSync(git, ["ls-files", "-z", "--", "*.html"], {
   cwd: root,
   encoding: "utf8"
 }).split("\0").filter(Boolean);

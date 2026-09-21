@@ -11,6 +11,7 @@ on:
       - "demo.mp4"
       - "videos/**"
       - "scripts/**"
+      - "i18n/**"
       - "package.json"
       - "sitemap.xml"
   workflow_dispatch:
@@ -37,6 +38,12 @@ jobs:
 
       - name: Check analytics integration
         run: npm run check:analytics
+
+      - name: Check localized pages
+        run: npm run check:locales
+
+      - name: Check language links
+        run: npm run check:language-links
 
       - name: Generate sitemap
         run: npm run generate:sitemap

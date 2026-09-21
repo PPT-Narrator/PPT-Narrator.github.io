@@ -2,6 +2,10 @@
   "name": "tingbo-website",
   "private": true,
   "scripts": {
+    "generate:locales": "node scripts/generate-localized-pages.mjs",
+    "check:locales": "node scripts/generate-localized-pages.mjs --check",
+    "sync:language-links": "node scripts/sync-language-links.mjs",
+    "check:language-links": "node scripts/sync-language-links.mjs --check",
     "check:analytics": "node scripts/check-analytics.mjs",
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
     "check:sitemap": "node scripts/generate-sitemap.mjs --check",

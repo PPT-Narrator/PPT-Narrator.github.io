@@ -2,21 +2,13 @@ import { execFileSync } from "node:child_process";
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { locales, pageKinds, route, localizedAlternates } from "./localized-routes.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sitemapPath = path.join(root, "sitemap.xml");
 const origin = "https://tingbo.app";
 const today = new Date().toISOString().slice(0, 10);
-
-const pairs = {
-  home: { en: "/", zh: "/zh/" },
-  features: { en: "/features/", zh: "/zh/features/" },
-  notes: { en: "/how-to-read-ppt-notes-aloud/", zh: "/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" },
-  rehearsal: { en: "/presentation-rehearsal/", zh: "/zh/presentation-rehearsal/" },
-  privacy: { en: "/privacy.html", zh: "/zh/privacy.html" },
-  androidPrivacy: { en: "/android/privacy.html", zh: "/android/zh/privacy.html" },
-  terms: { en: "/terms.html", zh: "/zh/terms.html" }
-};
+const git = process.platform === "darwin" ? "/usr/bin/git" : "git";
 
 const pages = [
   { url: "/", source: "index.html", pair: "home", video: "en" },
@@ -33,8 +25,15 @@ const pages = [
   { url: "/zh/terms.html", source: "zh/terms.html", pair: "terms" },
   { url: "/android/privacy.html", source: "android/privacy.html", pair: "androidPrivacy" },
   { url: "/android/zh/privacy.html", source: "android/zh/privacy.html", pair: "androidPrivacy" },
-  { url: "/harmony/privacy.html", source: "harmony/privacy.html" }
+  { url: "/harmony/privacy.html", source: "harmony/privacy.html", pair: "harmonyPrivacy" }
 ];
+
+for (const locale of locales.filter(item => item.prefix)) {
+  for (const kind of pageKinds) {
+    const url = route(kind, locale.code);
+    pages.push({ url, source: url.slice(1) + (url.endsWith("/") ? "index.html" : ""), pair: kind });
+  }
+}
 
 const videos = {
   en: {
@@ -69,11 +68,11 @@ function xml(value) {
 
 function lastModified(source) {
   try {
-    const dirty = execFileSync("git", ["status", "--porcelain", "--", source], { cwd: root, encoding: "utf8" }).trim();
+    const dirty = execFileSync(git, ["status", "--porcelain", "--", source], { cwd: root, encoding: "utf8" }).trim();
     if (dirty) return today;
 
-    const timestamp = execFileSync("git", ["log", "-1", "--format=%aI", "--", source], { cwd: root, encoding: "utf8" }).trim();
-    return timestamp ? timestamp.slice(0, 10) : today;
+    const timestamp = execFileSync(git, ["log", "-1", "--format=%aI", "--", source], { cwd: root, encoding: "utf8" }).trim();
+    return timestamp ? new Date(timestamp).toISOString().slice(0, 10) : today;
   } catch {
     return today;
   }
@@ -81,11 +80,10 @@ function lastModified(source) {
 
 function alternateLinks(page) {
   if (!page.pair) return [];
-  const pair = pairs[page.pair];
+  const alternates = localizedAlternates(page.pair);
   return [
-    `    <xhtml:link rel="alternate" hreflang="en" href="${origin}${pair.en}" />`,
-    `    <xhtml:link rel="alternate" hreflang="zh-Hans" href="${origin}${pair.zh}" />`,
-    `    <xhtml:link rel="alternate" hreflang="x-default" href="${origin}${pair.en}" />`
+    ...alternates.map(item => `    <xhtml:link rel="alternate" hreflang="${item.code}" href="${origin}${encodeURI(item.path)}" />`),
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${origin}${route(page.pair, "en") ?? route(page.pair, "zh-Hans")}" />`
   ];
 }
 
