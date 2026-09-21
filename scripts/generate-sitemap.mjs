@@ -25,7 +25,9 @@ const pages = [
   { url: "/zh/terms.html", source: "zh/terms.html", pair: "terms" },
   { url: "/android/privacy.html", source: "android/privacy.html", pair: "androidPrivacy" },
   { url: "/android/zh/privacy.html", source: "android/zh/privacy.html", pair: "androidPrivacy" },
-  { url: "/harmony/privacy.html", source: "harmony/privacy.html", pair: "harmonyPrivacy" }
+  { url: "/harmony/privacy.html", source: "harmony/privacy.html", pair: "harmonyPrivacy" },
+  { url: "/google-slides-speaker-notes/", source: "google-slides-speaker-notes/index.html", alternates: { en: "/google-slides-speaker-notes/", zh: "/zh/google-slides-speaker-notes/" } },
+  { url: "/zh/google-slides-speaker-notes/", source: "zh/google-slides-speaker-notes/index.html", alternates: { en: "/google-slides-speaker-notes/", zh: "/zh/google-slides-speaker-notes/" } }
 ];
 
 for (const locale of locales.filter(item => item.prefix)) {
@@ -79,6 +81,13 @@ function lastModified(source) {
 }
 
 function alternateLinks(page) {
+  if (page.alternates) {
+    return [
+      `    <xhtml:link rel="alternate" hreflang="en" href="${origin}${page.alternates.en}" />`,
+      `    <xhtml:link rel="alternate" hreflang="zh-Hans" href="${origin}${page.alternates.zh}" />`,
+      `    <xhtml:link rel="alternate" hreflang="x-default" href="${origin}${page.alternates.en}" />`
+    ];
+  }
   if (!page.pair) return [];
   const alternates = localizedAlternates(page.pair);
   return [

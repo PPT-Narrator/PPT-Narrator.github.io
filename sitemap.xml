@@ -289,6 +289,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/harmony/privacy.html" />
   </url>
   <url>
+    <loc>https://tingbo.app/google-slides-speaker-notes/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/google-slides-speaker-notes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/google-slides-speaker-notes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/google-slides-speaker-notes/" />
+  </url>
+  <url>
+    <loc>https://tingbo.app/zh/google-slides-speaker-notes/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/google-slides-speaker-notes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/google-slides-speaker-notes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tingbo.app/google-slides-speaker-notes/" />
+  </url>
+  <url>
     <loc>https://tingbo.app/zh-hant/</loc>
     <lastmod>2026-09-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
