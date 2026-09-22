@@ -27,7 +27,11 @@ const pages = [
   { url: "/android/zh/privacy.html", source: "android/zh/privacy.html", pair: "androidPrivacy" },
   { url: "/harmony/privacy.html", source: "harmony/privacy.html", pair: "harmonyPrivacy" },
   { url: "/google-slides-speaker-notes/", source: "google-slides-speaker-notes/index.html", alternates: { en: "/google-slides-speaker-notes/", zh: "/zh/google-slides-speaker-notes/" } },
-  { url: "/zh/google-slides-speaker-notes/", source: "zh/google-slides-speaker-notes/index.html", alternates: { en: "/google-slides-speaker-notes/", zh: "/zh/google-slides-speaker-notes/" } }
+  { url: "/zh/google-slides-speaker-notes/", source: "zh/google-slides-speaker-notes/index.html", alternates: { en: "/google-slides-speaker-notes/", zh: "/zh/google-slides-speaker-notes/" } },
+  { url: "/practice-presentation-on-iphone/", source: "practice-presentation-on-iphone/index.html", alternates: { en: "/practice-presentation-on-iphone/", zh: "/zh/practice-presentation-on-iphone/" } },
+  { url: "/zh/practice-presentation-on-iphone/", source: "zh/practice-presentation-on-iphone/index.html", alternates: { en: "/practice-presentation-on-iphone/", zh: "/zh/practice-presentation-on-iphone/" } },
+  { url: "/ppt-notes-reader-for-iphone/", source: "ppt-notes-reader-for-iphone/index.html", alternates: { en: "/ppt-notes-reader-for-iphone/", zh: "/zh/ppt-notes-reader-for-iphone/" } },
+  { url: "/zh/ppt-notes-reader-for-iphone/", source: "zh/ppt-notes-reader-for-iphone/index.html", alternates: { en: "/ppt-notes-reader-for-iphone/", zh: "/zh/ppt-notes-reader-for-iphone/" } }
 ];
 
 for (const locale of locales.filter(item => item.prefix)) {
