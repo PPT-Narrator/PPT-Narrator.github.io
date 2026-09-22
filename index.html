@@ -126,7 +126,7 @@
           {
             "@type": "Question",
             "name": "Are presentation files uploaded to a server?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Image-based PPTX files can be read locally. Legacy PPT files and presentations with editable layouts may be sent to the configured conversion service only when conversion is needed. Speaker-note narration uses the device's text-to-speech engine." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Tingbo for iOS 1.2 and later imports and renders PPT, PPTX, and Keynote (.key) on the device. It does not upload presentations for conversion or automatically fall back to a cloud service. Some missing Keynote theme resources may be downloaded from iCloud. Speaker-note narration uses iOS text-to-speech." }
           },
           {
             "@type": "Question",
@@ -342,7 +342,7 @@
         <details open><summary>What is Tingbo?</summary><p>Tingbo reads your speaker notes aloud, one slide at a time, so you can rehearse before a report, lesson, meeting, or talk. Its lightweight slide reader lets you follow the presentation as you listen.</p></details>
         <details><summary>How do I make PowerPoint speaker notes read aloud?</summary><p>Import a PPT, PPTX, or Keynote, go to the first slide, and tap Play. Tingbo reads the current slide's speaker notes and automatically moves to the next slide when narration finishes. Add notes first if a slide has no script.</p></details>
         <details><summary>Does Tingbo support PPT, PPTX, and Keynote?</summary><p>Yes. Tingbo for iOS 1.2 and later imports <code>.ppt</code>, <code>.pptx</code>, and <code>.key</code> files. If an older version cannot import Keynote directly, update the app or export a PPTX copy from Keynote.</p></details>
-        <details><summary>Are presentation files uploaded to a server?</summary><p>Image-based PPTX files can be read locally. Legacy PPT files and PPTX files with editable layouts may be uploaded only when a rendering conversion is required. The current iOS configuration requests a conversion job through a Cloudflare Worker, then uploads the selected file directly to CloudConvert. Imported history stays in the app, while speech playback uses the device's system text-to-speech engine. See the <a href="/privacy.html">Privacy Policy</a> for details.</p></details>
+        <details><summary>Are presentation files uploaded to a server?</summary><p>Tingbo for iOS 1.2 and later imports and renders PPT, PPTX, and Keynote (<code>.key</code>) on your device. It does not upload presentations for conversion or automatically fall back to a cloud service if rendering fails. Some missing Keynote theme resources may be downloaded from iCloud, but your presentation is not uploaded. Import history stays in the app, and speaker-note narration uses iOS text-to-speech. See the <a href="/privacy.html">Privacy Policy</a> for details.</p></details>
         <details><summary>Can I edit and export speaker notes?</summary><p>Yes. Open the current slide's notes, edit the script, and save it for playback. You can export speaker notes as Markdown or export a PPTX copy from the app.</p></details>
         <details><summary>Can Tingbo play in the background or through headphones?</summary><p>Yes. Background playback and headphone output are supported. Tingbo pauses automatically when headphones are disconnected.</p></details>
         <details><summary>Do I need an account?</summary><p>No. Tingbo does not require registration or login.</p></details>

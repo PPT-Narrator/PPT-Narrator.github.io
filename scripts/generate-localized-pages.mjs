@@ -149,7 +149,7 @@ function guide(kind, locale, data) {
 function legal(kind, locale, data) {
   const content = data[kind];
   const english = route(kind, 'en') ?? route(kind, 'zh-Hans');
-  const date = { privacy: '2026-09-22', terms: '2026-08-30', androidPrivacy: '2026-09-15', harmonyPrivacy: '2026-09-13' }[kind];
+  const date = { privacy: '2026-09-22', terms: '2026-09-22', androidPrivacy: '2026-09-15', harmonyPrivacy: '2026-09-13' }[kind];
   const blocks = `<p class="policy-date"><time datetime="${date}">${date}</time></p>` +
     content.sections.map(([title, text], index) => `<h2>${index + 1}. ${escape(title)}</h2><p>${escape(text)}</p>`).join('') +
     `<p>${a(english, data.nav.originalVersion)} · ${a('mailto:m15568817011@163.com', 'm15568817011@163.com')}</p>`;

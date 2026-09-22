@@ -82,38 +82,29 @@
     <section class="card">
       <h2>Overview</h2>
       <p>Tingbo: PPT Notes Reader (“the App”, “we”, “us”) is an iOS app that reads the speaker notes in your presentations aloud, slide by slide, to help you rehearse before you present.</p>
-      <p>Your privacy matters to us. This policy explains what information the App collects and how it is handled. <strong>Presentations and notes are stored on your device, except when you use a conversion service as described below. Firebase-enabled iOS versions use Firebase Analytics for feature usage; we do not include file names or note text in our custom analytics events.</strong></p>
+      <p>Your privacy matters to us. This policy explains what information the App collects and how it is handled. <strong>Tingbo for iOS 1.2 and later renders PPT, PPTX, and Keynote on your device without uploading presentations for conversion. Firebase-enabled iOS versions use Firebase Analytics for feature usage; we do not include file names or note text in our custom analytics events.</strong></p>
     </section>
 
     <section class="card">
-      <h2>Information We Do Not Collect</h2>
-      <p>The App does not require an account. During normal use, we do not ask you to provide:</p>
-      <ul>
-        <li>Your name, email address, or contact details, unless you choose to contact us.</li>
-        <li>Access to your contacts or photos.</li>
-        <li>Presentation content, file names, or speaker-note text as App analytics events.</li>
-      </ul>
-      <p>Firebase Analytics processes usage events and related technical information in Firebase-enabled iOS versions, as described below. A presentation may be sent to a conversion service when you use cloud conversion.</p>
+      <h2>Accounts and Analytics Data</h2>
+      <p>The App does not require an account. During normal use, we do not ask for your name, email address, or access to your contacts or photos. If you choose to contact us, we receive the information you send.</p>
+      <p>In Firebase-enabled iOS versions, our custom analytics events do not include presentation content, file names, or speaker-note text. Firebase Analytics processes usage events and related technical information, as described below.</p>
     </section>
 
     <section class="card">
-      <h2>Local Processing by Default</h2>
+      <h2>On-Device Processing</h2>
       <p>Your presentation files and speaker notes are processed <strong>on your device</strong>. Imported presentations, slide images, and notes are stored locally in the App’s storage so you can reopen them anytime. Reading the notes aloud uses the built-in iOS text-to-speech on your device.</p>
     </section>
 
     <section class="card">
-      <h2>Presentation Conversion</h2>
-      <p>To render every page of a PPT or PPTX file as a slide image, the App may perform a conversion step:</p>
-      <ul>
-        <li><strong>Local conversion (default):</strong> The App connects to a conversion service running on your own local network (for example, a service on your Mac). Your file is sent over your local network and is not transmitted to any third party.</li>
-        <li><strong>Cloud conversion:</strong> When a presentation needs remote rendering, the current iOS build requests a conversion job through a Cloudflare Worker, then uploads the selected file directly to CloudConvert. The file is used only to complete the conversion you requested and is not used for any other purpose.</li>
-      </ul>
-      <p>Your file is never used for advertising, profiling, or anything other than the conversion you explicitly trigger.</p>
+      <h2>Presentation Rendering</h2>
+      <p>Tingbo for iOS 1.2 and later parses and renders PPT, PPTX, and Keynote (.key) on your device. Normal imports and reopening saved presentations do not upload the file to a conversion server. If local rendering cannot handle a file, the App reports an error instead of automatically sending it to a cloud service.</p>
+      <p>Some Keynote theme images missing from the document may be downloaded from iCloud when needed. This does not upload your presentation. Imported files, slide images, and notes remain in the App’s local storage.</p>
     </section>
 
     <section class="card">
       <h2>Third-Party Services</h2>
-      <p>When cloud conversion is used, Cloudflare handles the job request and CloudConvert receives the selected presentation to create the rendered result. These services receive only the information and file needed for that operation. We do not sell or rent your data to anyone.</p>
+      <p>Normal imports in Tingbo for iOS 1.2 and later do not use Cloudflare Worker or CloudConvert to process your presentation. The App may download missing Keynote theme resources from iCloud. We do not sell or rent your presentations or notes.</p>
       <p>This website is hosted on GitHub Pages, which may process standard server logs (such as your IP address) in accordance with GitHub’s privacy practices.</p>
     </section>
 

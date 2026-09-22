@@ -127,7 +127,7 @@
           {
             "@type": "Question",
             "name": "演示文稿会上传服务器吗？",
-            "acceptedAnswer": { "@type": "Answer", "text": "全页图片型 PPTX 可以在本地读取。旧版 PPT 或包含可编辑排版的演示文稿仅在需要转换时发送到配置的转换服务，备注朗读使用设备系统语音。" }
+            "acceptedAnswer": { "@type": "Answer", "text": "听播 iOS 1.2 及以上版本在设备上导入并渲染 PPT、PPTX 和 Keynote（.key），不会为转换上传演示文稿，也不会在本地渲染失败时自动转交云端。部分 Keynote 主题资源可能按需从 iCloud 下载；备注朗读使用 iOS 系统语音。" }
           },
           {
             "@type": "Question",
@@ -343,7 +343,7 @@
         <details open><summary>听播是什么？</summary><p>听播把演示文稿里的备注逐页读给你听，帮助你在汇报、演讲或授课前听熟讲稿。它也提供轻量的幻灯片阅读体验，让你边看页面边听，随时检查和修改表达。</p></details>
         <details><summary>如何让 PPT 备注自动朗读？</summary><p>导入 PPT、PPTX 或 Keynote，从第一页点击播放。听播会朗读当前页备注，并在朗读结束后自动切换到下一页。若某页没有讲稿，请先在备注中补充内容。</p></details>
         <details><summary>支持 PPT、PPTX 和 Keynote 吗？</summary><p>支持。听播 iOS 1.2 及以上版本可导入 <code>.ppt</code>、<code>.pptx</code> 和 <code>.key</code> 文件。若旧版本无法直接导入 Keynote，请更新 App，或先在 Keynote 中导出 PPTX 副本。</p></details>
-        <details><summary>演示文稿会上传服务器吗？</summary><p>全页图片型 PPTX 可以在本地读取。旧版 PPT 或包含可编辑排版的 PPTX 仅在渲染转换确有需要时上传。当前 iOS 配置会先通过 Cloudflare Worker 创建转换任务，再把用户选择的文件直接上传到 CloudConvert；导入历史保存在 App 内，备注朗读使用设备系统语音。详情见<a href="/zh/privacy.html">隐私政策</a>。</p></details>
+        <details><summary>演示文稿会上传服务器吗？</summary><p>听播 iOS 1.2 及以上版本在设备上导入并渲染 PPT、PPTX 和 Keynote（<code>.key</code>），不会为转换上传演示文稿；本地渲染失败也不会自动转交云端。部分 Keynote 主题资源可能按需从 iCloud 下载，但不会上传你的演示文稿。导入历史保存在 App 内，备注朗读使用 iOS 系统语音。详情见<a href="/zh/privacy.html">隐私政策</a>。</p></details>
         <details><summary>可以编辑和导出备注吗？</summary><p>可以。打开当前页备注，修改讲稿并保存，下次播放会使用更新后的内容。还可以导出 Markdown 备注或 PPTX 副本。</p></details>
         <details><summary>可以后台和耳机播放吗？</summary><p>可以。听播支持后台音频和耳机输出，耳机断开时会自动暂停。</p></details>
         <details><summary>需要注册账号吗？</summary><p>不需要。听播没有注册或登录流程。</p></details>
