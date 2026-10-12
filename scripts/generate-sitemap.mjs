@@ -37,13 +37,14 @@ const pages = [
 for (const locale of locales.filter(item => item.prefix)) {
   for (const kind of pageKinds) {
     const url = route(kind, locale.code);
-    pages.push({ url, source: url.slice(1) + (url.endsWith("/") ? "index.html" : ""), pair: kind });
+    pages.push({ url, source: url.slice(1) + (url.endsWith("/") ? "index.html" : ""), pair: kind,
+      video: kind === "home" ? (locale.code === "zh-Hant" ? "zh" : "en") : undefined });
   }
 }
 
 const videos = {
   en: {
-    thumbnail: "/images/og-en.jpg",
+    thumbnail: "/images/demo-poster.webp",
     title: "Tingbo: Hear Speaker Notes",
     description: "See how Tingbo helps users rehearse presentations by hearing, editing, and replaying speaker notes slide by slide on an iPhone.",
     story: {
@@ -55,7 +56,7 @@ const videos = {
     }
   },
   zh: {
-    thumbnail: "/images/og-zh.jpg",
+    thumbnail: "/images/demo-poster.webp",
     title: "听播英文功能宣传片",
     description: "45 秒 iPhone 英文宣传片，展示听播如何逐页朗读、编辑并重复播放演讲者备注，帮助用户在上台前熟悉讲稿。",
     story: {

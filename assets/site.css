@@ -211,7 +211,15 @@ html[dir="rtl"] .localized-page .reader-visual { order: -1; }
 
 .button[href^="https://apps.apple.com"],
 .button[href^="https://play.google.com/store/apps/details"] {
-  min-width: 232px;
+  width: 256px;
+  max-width: 100%;
+  min-height: 48px;
+  padding: 11px 12px;
+  background: var(--gold);
+  color: #1e2a2e;
+  border-color: transparent;
+  font-size: 14px;
+  direction: ltr;
   gap: 10px;
   white-space: nowrap;
 }
@@ -240,6 +248,8 @@ html[dir="rtl"] .localized-page .reader-visual { order: -1; }
 }
 
 .button-secondary:hover { background: rgba(0, 0, 0, .34); color: #fff; }
+.button[href^="https://apps.apple.com"]:hover,
+.button[href^="https://play.google.com/store/apps/details"]:hover { background: #ffc453; color: #152126; }
 
 .hero-facts {
   margin: 18px 0 0;

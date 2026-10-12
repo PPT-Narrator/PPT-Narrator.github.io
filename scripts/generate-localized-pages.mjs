@@ -2,6 +2,8 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { translations } from '../i18n/locales.mjs';
+import { primaryHome } from '../i18n/home.mjs';
+import { renderHome } from './render-home.mjs';
 import { locales, pageKinds, route, localizedAlternates } from './localized-routes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -114,42 +116,6 @@ function shell(kind, locale, data, title, description, body) {
 `;
 }
 
-function card(title, description) {
-  return `<article class="feature-item"><strong>${escape(title)}</strong><p>${escape(description)}</p></article>`;
-}
-
-function home(locale, data) {
-  const h = data.home;
-  const body = `
-  <section class="section localized-hero" aria-labelledby="home-title"><div class="section-inner localized-hero-layout">
-    <div><p class="eyebrow">${escape(h.eyebrow)}</p><h1 id="home-title">${escape(h.title)}</h1>
-    <p class="hero-lede">${escape(h.intro)}</p>
-    <div class="actions">${storeButton(appStore, appStoreLabel)}${storeButton(googlePlay, googlePlayLabel)}${a(route('notes', locale.code), data.nav.notes, ' class="button button-secondary"')}</div>
-    <p class="hero-facts">${escape(h.formats)}</p></div>
-    <div class="localized-audio-art" aria-hidden="true"><div class="localized-slide"><span></span><span></span><span></span></div><div class="localized-player"><i>▶</i><b></b><b></b><b></b><b></b><b></b></div></div>
-  </div></section>
-  <section class="section" aria-labelledby="home-features"><div class="section-inner">
-    <div class="section-heading"><p class="eyebrow">${escape(h.featureEyebrow)}</p><h2 id="home-features">${escape(h.featureTitle)}</h2><p>${escape(h.featureIntro)}</p></div>
-    <div class="feature-grid">${data.features.slice(0, 3).map(item => card(...item)).join('')}</div>
-    <div class="actions">${a(route('features', locale.code), data.nav.allFeatures, ' class="button"')}</div>
-  </div></section>
-  <section class="section reader-spotlight" aria-labelledby="reader-title"><div class="section-inner reader-layout">
-    <div class="reader-copy"><p class="eyebrow">${escape(h.readerEyebrow)}</p><h2 id="reader-title">${escape(h.readerTitle)}</h2>
-      <p class="reader-lede">${escape(h.readerText)}</p><p class="reader-formats">${escape(h.formats)}</p>
-      ${a(route('rehearsal', locale.code), data.nav.rehearsal, ' class="text-link"')}
-    </div>
-    <figure class="reader-visual"><img src="/images/en-slide-and-script.webp" width="720" height="1461" loading="lazy" alt="${escape(h.screenshotAlt)}"><figcaption>${escape(h.screenshotCaption)}</figcaption></figure>
-  </div></section>
-  <section class="section section-soft" aria-labelledby="home-steps"><div class="section-inner"><div class="section-heading"><h2 id="home-steps">${escape(h.stepsTitle)}</h2></div>
-    <div class="workflow">${data.rehearsal.steps.map(([title, text], index) => `<article><span class="step-number">${index + 1}</span><h3>${escape(title)}</h3><p>${escape(text)}</p></article>`).join('')}</div>
-  </div></section>
-  <section class="section" aria-labelledby="faq-title"><div class="section-inner faq"><div class="section-heading"><h2 id="faq-title">${escape(h.faqTitle)}</h2></div>
-    ${data.faq.map(([q, answer]) => `<details><summary>${escape(q)}</summary><p>${escape(answer)}</p></details>`).join('')}
-  </div></section>
-  <section class="section cta-band"><div class="section-inner cta-row"><div><h2>${escape(h.ctaTitle)}</h2><p>${escape(h.ctaText)}</p></div><div class="actions">${storeButton(appStore, appStoreLabel)}${storeButton(googlePlay, googlePlayLabel)}</div></div></section>`;
-  return shell('home', locale, data, h.title, h.description, body);
-}
-
 function article(kind, locale, data, content, blocks) {
   const downloadActions = ['features', 'notes', 'rehearsal'].includes(kind)
     ? `${storeButton(appStore, appStoreLabel)}${storeButton(googlePlay, googlePlayLabel)}`
@@ -186,18 +152,18 @@ function legal(kind, locale, data) {
   return article(kind, locale, data, content, blocks);
 }
 
-for (const locale of locales.filter(locale => locale.prefix)) {
-  const data = translations[locale.code];
+for (const locale of locales) {
+  const data = translations[locale.code] ?? primaryHome[locale.code];
   if (!data) throw new Error(`Missing translation for ${locale.code}`);
   const expectedSections = { privacy: 10, terms: 13, androidPrivacy: 9, harmonyPrivacy: 10 };
-  if (data.features.length !== 6 || data.notes.steps.length !== 3 || data.rehearsal.steps.length !== 3 || data.faq.length < 3) {
+  if (locale.prefix && (data.features.length !== 6 || data.notes.steps.length !== 3 || data.rehearsal.steps.length !== 3 || data.faq.length < 3)) {
     throw new Error(`Incomplete product translation for ${locale.code}`);
   }
-  for (const [kind, count] of Object.entries(expectedSections)) {
+  for (const [kind, count] of locale.prefix ? Object.entries(expectedSections) : []) {
     if (data[kind].sections.length !== count) throw new Error(`Incomplete ${kind} translation for ${locale.code}`);
   }
-  for (const kind of pageKinds) {
-    const markup = kind === 'home' ? home(locale, data) : kind === 'features' ? features(locale, data)
+  for (const kind of locale.prefix ? pageKinds : ['home']) {
+    const markup = kind === 'home' ? renderHome(locale, data) : kind === 'features' ? features(locale, data)
       : kind === 'notes' || kind === 'rehearsal' ? guide(kind, locale, data)
       : legal(kind, locale, data);
     const target = path.join(root, route(kind, locale.code).slice(1),
@@ -211,4 +177,4 @@ for (const locale of locales.filter(locale => locale.prefix)) {
     }
   }
 }
-console.log(`${locales.length - 2} languages × ${pageKinds.length} page types verified${process.argv.includes('--check') ? '' : ' or generated'}.`);
+console.log(`12 homepages and 10 languages × 7 article types verified${process.argv.includes('--check') ? '' : ' or generated'}.`);
