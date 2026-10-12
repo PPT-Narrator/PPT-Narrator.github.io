@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { pageKinds, route, localizedAlternates } from './localized-routes.mjs';
+import { languageIcon } from './render-home.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const check = process.argv.includes('--check');
@@ -13,7 +14,8 @@ function menu(kind, code, legal) {
   ).join('');
   const title = code === 'en' ? 'Choose language' : '选择语言';
   const className = legal ? 'legal-language-menu' : 'language-menu';
-  return `<details class="${className}"><summary aria-label="${title}">${label}</summary><div class="language-options">${links}</div></details>`;
+  const summary = kind === 'home' ? `${languageIcon}<span>${label}</span>` : label;
+  return `<details class="${className}"><summary aria-label="${title}">${summary}</summary><div class="language-options">${links}</div></details>`;
 }
 
 for (const code of ['en', 'zh-Hans']) {

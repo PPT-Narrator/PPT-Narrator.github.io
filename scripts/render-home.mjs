@@ -6,6 +6,7 @@ const stores = [['https://apps.apple.com/us/app/id6806785922', 'Download on App 
 const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;');
 const link = (url, text, attrs = '') => `<a href="${escape(url)}"${attrs}>${escape(text)}</a>`;
 const storeButtons = () => stores.map(([url, text]) => link(url, text, ' class="button store-button" rel="noopener"')).join('');
+export const languageIcon = '<svg class="language-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>';
 
 export function renderHome(locale, data) {
   const code = locale.code;
@@ -72,7 +73,7 @@ export function renderHome(locale, data) {
   <a class="skip-link" href="#main">${escape(nav.skip)}</a>
   <header class="site-header"><nav class="nav" aria-label="${escape(nav.navigation)}">
     <a class="brand" href="${route('home', code)}"><img src="/images/tingbo-app-icon.png" width="42" height="42" alt="Tingbo"><span>${brand}</span></a>
-    <div class="nav-links">${link(route('features', code), nav.features)}${link('#demo', copy.watch, ' class="optional"')}<details class="language-menu"><summary aria-label="${escape(nav.language)}">${escape(locale.label)}</summary><div class="language-options">${languageLinks}</div></details></div>
+    <div class="nav-links">${link(route('features', code), nav.features)}${link('#demo', copy.watch, ' class="optional"')}<details class="language-menu"><summary aria-label="${escape(nav.language)}">${languageIcon}<span>${escape(locale.label)}</span></summary><div class="language-options">${languageLinks}</div></details></div>
   </nav></header>
   <main id="main">
     <section class="product-hero" aria-labelledby="home-title"><div class="section-inner product-hero-layout">

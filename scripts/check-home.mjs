@@ -9,6 +9,7 @@ for (const locale of locales) {
   const label = locale.code;
   assert.equal((html.match(/<h1\b/g) ?? []).length, 1, `${label}: single product H1`);
   assert.equal((html.match(/class="button store-button"/g) ?? []).length, 4, `${label}: two stores in hero and CTA`);
+  assert.match(html, /<summary aria-label="[^"]+"><svg class="language-icon"[^>]*aria-hidden="true"[^>]*>[\s\S]*?<\/svg><span>[^<]+<\/span><\/summary>/, `${label}: accessible language selector with decorative icon`);
   assert.ok(html.indexOf('id="demo"') < html.indexOf('id="features-title"'), `${label}: demo before feature details`);
   assert.ok(html.includes(`href="https://tingbo.app${route('home', locale.code)}"`), `${label}: canonical URL`);
   assert.equal((html.match(/hreflang=/g) ?? []).length, 13, `${label}: all language alternates`);

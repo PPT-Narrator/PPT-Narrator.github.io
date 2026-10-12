@@ -8,6 +8,8 @@
 .product-home .nav { min-height: 72px; }
 .product-home .brand span { display: inline; }
 .product-home .nav-links > a, .product-home .language-menu summary { min-height: 44px; display: flex; align-items: center; }
+.product-home .language-menu summary { gap: 8px; }
+.product-home .language-icon { width: 20px; height: 20px; flex: none; }
 .product-home .language-options { max-height: 70vh; overflow-y: auto; }
 .product-home a:focus-visible, .product-home summary:focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
 .product-hero { color: #fff; background: #112a2c; }
