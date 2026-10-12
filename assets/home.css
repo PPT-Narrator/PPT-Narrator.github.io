@@ -90,11 +90,11 @@ html[dir="rtl"] .product-home .app-view { direction: ltr; }
   .product-home h2 { font-size: 26px; }
   .product-home .section-heading { margin-bottom: 24px; }
   .product-home .section-heading p { font-size: 16px; }
-  .product-hero-layout { grid-template-columns: 1fr; padding: 28px 18px 24px; min-height: 0; gap: 12px; }
+  .product-hero-layout { grid-template-columns: 1fr; padding: 16px 18px; min-height: 0; gap: 12px; }
   .product-hero h1 { font-size: 40px; margin-bottom: 10px; }
   .product-tagline { font-size: 24px; margin-bottom: 14px; }
   .product-intro { line-height: 1.5; }
-  .product-hero .actions { margin-top: 20px; gap: 8px; }
+  .product-hero .actions { margin-top: 16px; gap: 8px; }
   .product-home .store-button { width: 100%; max-width: 320px; min-height: 44px; }
   .product-facts { margin: 10px 0 0; font-size: 12px; }
   .demo-link { min-height: 40px; font-size: 14px; }
