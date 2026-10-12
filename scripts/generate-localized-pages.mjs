@@ -9,6 +9,8 @@ const origin = 'https://tingbo.app';
 const beacon = '<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{"token": "1afbc61212cf4e1c8385cf85122aefff"}\'></script>';
 const appStore = 'https://apps.apple.com/us/app/id6806785922';
 const googlePlay = 'https://play.google.com/store/apps/details?id=com.ff.narrator';
+const appStoreLabel = 'Download on App Store';
+const googlePlayLabel = 'Download on Google Play';
 
 function escape(value) {
   return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;')
@@ -17,6 +19,10 @@ function escape(value) {
 
 function a(href, label, attrs = '') {
   return `<a href="${escape(href)}"${attrs}>${escape(label)}</a>`;
+}
+
+function storeButton(href, label) {
+  return a(href, label, ' class="button" rel="noopener"');
 }
 
 function alternates(kind) {
@@ -118,7 +124,7 @@ function home(locale, data) {
   <section class="section localized-hero" aria-labelledby="home-title"><div class="section-inner localized-hero-layout">
     <div><p class="eyebrow">${escape(h.eyebrow)}</p><h1 id="home-title">${escape(h.title)}</h1>
     <p class="hero-lede">${escape(h.intro)}</p>
-    <div class="actions">${a(appStore, data.nav.download, ' class="button" rel="noopener"')}${a(googlePlay, data.nav.downloadAndroid, ' class="button" rel="noopener"')}${a(route('notes', locale.code), data.nav.notes, ' class="button button-secondary"')}</div>
+    <div class="actions">${storeButton(appStore, appStoreLabel)}${storeButton(googlePlay, googlePlayLabel)}${a(route('notes', locale.code), data.nav.notes, ' class="button button-secondary"')}</div>
     <p class="hero-facts">${escape(h.formats)}</p></div>
     <div class="localized-audio-art" aria-hidden="true"><div class="localized-slide"><span></span><span></span><span></span></div><div class="localized-player"><i>▶</i><b></b><b></b><b></b><b></b><b></b></div></div>
   </div></section>
@@ -140,14 +146,14 @@ function home(locale, data) {
   <section class="section" aria-labelledby="faq-title"><div class="section-inner faq"><div class="section-heading"><h2 id="faq-title">${escape(h.faqTitle)}</h2></div>
     ${data.faq.map(([q, answer]) => `<details><summary>${escape(q)}</summary><p>${escape(answer)}</p></details>`).join('')}
   </div></section>
-  <section class="section cta-band"><div class="section-inner cta-row"><div><h2>${escape(h.ctaTitle)}</h2><p>${escape(h.ctaText)}</p></div><div class="actions">${a(appStore, data.nav.download, ' class="button" rel="noopener"')}${a(googlePlay, data.nav.downloadAndroid, ' class="button" rel="noopener"')}</div></div></section>`;
+  <section class="section cta-band"><div class="section-inner cta-row"><div><h2>${escape(h.ctaTitle)}</h2><p>${escape(h.ctaText)}</p></div><div class="actions">${storeButton(appStore, appStoreLabel)}${storeButton(googlePlay, googlePlayLabel)}</div></div></section>`;
   return shell('home', locale, data, h.title, h.description, body);
 }
 
 function article(kind, locale, data, content, blocks) {
   const downloadActions = ['features', 'notes', 'rehearsal'].includes(kind)
-    ? `${a(appStore, data.nav.download, ' class="button" rel="noopener"')}${a(googlePlay, data.nav.downloadAndroid, ' class="button" rel="noopener"')}`
-    : a(appStore, data.nav.download, ' class="button" rel="noopener"');
+    ? `${storeButton(appStore, appStoreLabel)}${storeButton(googlePlay, googlePlayLabel)}`
+    : storeButton(appStore, appStoreLabel);
   const body = `<div class="article-shell"><article class="article">
     <div class="breadcrumbs">${a(route('home', locale.code), data.nav.home)} / ${escape(content.title)}</div>
     <h1>${escape(content.title)}</h1><p class="article-lede">${escape(content.intro)}</p>

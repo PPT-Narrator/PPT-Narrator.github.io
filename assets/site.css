@@ -209,6 +209,30 @@ html[dir="rtl"] .localized-page .reader-visual { order: -1; }
 
 .button:hover { background: #ffc453; color: #152126; }
 
+.button[href^="https://apps.apple.com"],
+.button[href^="https://play.google.com/store/apps/details"] {
+  min-width: 232px;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.button[href^="https://apps.apple.com"]::before,
+.button[href^="https://play.google.com/store/apps/details"]::before {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  background: center / contain no-repeat;
+  content: "";
+}
+
+.button[href^="https://apps.apple.com"]::before {
+  background-image: url("/images/apple-mark.svg");
+}
+
+.button[href^="https://play.google.com/store/apps/details"]::before {
+  background-image: url("/images/google-play-mark.svg");
+}
+
 .button-secondary {
   border-color: rgba(255, 255, 255, .45);
   background: rgba(0, 0, 0, .18);
