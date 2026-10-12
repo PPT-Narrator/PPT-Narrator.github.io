@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://tingbo.app/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -37,7 +37,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/zh/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -87,7 +87,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/zh/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -104,7 +104,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/how-to-read-ppt-notes-aloud/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -121,7 +121,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -138,7 +138,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/presentation-rehearsal/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -155,7 +155,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/zh/presentation-rehearsal/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -332,7 +332,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/zh-hant/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -349,7 +349,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/zh-hant/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -366,7 +366,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/zh-hant/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -383,7 +383,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/zh-hant/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -467,7 +467,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ja/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -484,7 +484,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ja/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -501,7 +501,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ja/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -518,7 +518,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ja/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -602,7 +602,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ko/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -619,7 +619,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ko/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -636,7 +636,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ko/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -653,7 +653,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ko/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -737,7 +737,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/es/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -754,7 +754,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/es/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -771,7 +771,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/es/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -788,7 +788,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/es/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -872,7 +872,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/fr/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -889,7 +889,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/fr/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -906,7 +906,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/fr/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -923,7 +923,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/fr/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -1007,7 +1007,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/de/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -1024,7 +1024,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/de/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -1041,7 +1041,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/de/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -1058,7 +1058,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/de/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -1142,7 +1142,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/pt-br/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -1159,7 +1159,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/pt-br/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -1176,7 +1176,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/pt-br/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -1193,7 +1193,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/pt-br/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -1277,7 +1277,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ru/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -1294,7 +1294,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ru/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -1311,7 +1311,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ru/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -1328,7 +1328,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ru/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -1412,7 +1412,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ar/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -1429,7 +1429,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ar/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -1446,7 +1446,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ar/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -1463,7 +1463,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/ar/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />
@@ -1547,7 +1547,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/hi/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/" />
@@ -1564,7 +1564,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/hi/features/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/features/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/features/" />
@@ -1581,7 +1581,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/hi/notes-guide/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/how-to-read-ppt-notes-aloud/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/ppt%E5%A4%87%E6%B3%A8%E6%9C%97%E8%AF%BB/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/notes-guide/" />
@@ -1598,7 +1598,7 @@
   </url>
   <url>
     <loc>https://tingbo.app/hi/rehearsal/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tingbo.app/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://tingbo.app/zh/presentation-rehearsal/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tingbo.app/zh-hant/rehearsal/" />

@@ -1,10 +1,10 @@
 export const zhHant = {
-  nav: { navigation: '主要導覽', language: '選擇語言', skip: '跳至主要內容', home: '首頁', features: '功能', allFeatures: '查看所有功能', notes: '備註朗讀指南', rehearsal: '簡報練習', privacy: '隱私權政策', terms: '使用條款', support: '聯絡我們', download: '前往 App Store 下載', originalVersion: '原始版本' },
+  nav: { navigation: '主要導覽', language: '選擇語言', skip: '跳至主要內容', home: '首頁', features: '功能', allFeatures: '查看所有功能', notes: '備註朗讀指南', rehearsal: '簡報練習', privacy: '隱私權政策', terms: '使用條款', support: '聯絡我們', download: '前往 App Store 下載', downloadAndroid: '前往 Google Play 下載', originalVersion: '原始版本' },
   home: {
     eyebrow: '聽播 Tingbo · 逐頁朗讀簡報備註', title: '把講稿聽熟，上台更從容',
     description: '聽播逐頁朗讀簡報備註，支援自動翻頁、背景播放和輕量閱讀 PPT、PPTX、Keynote。',
     intro: '讓每頁簡報的備註讀給你聽。朗讀結束後自動翻頁，鎖定畫面也能繼續收聽；不順口的句子隨時修改，再聽一遍。',
-    formats: 'iPhone 與 iPad · 支援 PPT、PPTX、Keynote · 無須帳號',
+    formats: 'iPhone、iPad 與 Android · 支援 PPT、PPTX、Keynote · 無須帳號',
     featureEyebrow: '聽、改、再練一次', featureTitle: '從第一頁開始，聽熟自己的講稿',
     featureIntro: '依照簡報順序收聽備註，在正式發表前發現需要修改的地方。',
     readerEyebrow: '輕量閱讀 · 邊看邊聽', readerTitle: '一邊聽講稿，一邊看每頁重點',
@@ -21,7 +21,7 @@ export const zhHant = {
     ['輕鬆瀏覽投影片', '左右滑動、橫豎螢幕切換與雙指縮放，方便查看圖表和細節。'],
     ['歷史與匯出', '重新開啟先前匯入的簡報，並將備註匯出為 Markdown 或匯出可用的 PPTX 副本。']
   ],
-  featuresPage: { title: '聽播的功能', intro: '把簡報、備註和語音播放放在同一個畫面，讓練習跟著每一頁自然進行。', formatsTitle: '檔案與平台', formatsText: 'iOS 1.2 及以上版本支援匯入 .ppt、.pptx 和 .key；iPhone 與 iPad 可透過 App Store 下載。複雜排版的顯示效果可能因檔案而異。' },
+  featuresPage: { title: '聽播的功能', intro: '把簡報、備註和語音播放放在同一個畫面，讓練習跟著每一頁自然進行。', formatsTitle: '檔案與平台', formatsText: 'iOS 1.2 及以上版本支援匯入 .ppt、.pptx 和 .key；iPhone 與 iPad 可透過 App Store 下載，Android 版可透過 Google Play 下載。複雜排版的顯示效果可能因檔案而異。' },
   notes: { title: '如何朗讀簡報備註', intro: '把自己的講稿寫在每頁備註裡，聽播就能依照投影片順序讀給你聽。', tip: '沒有備註的頁面，請先加入想說的內容，再開始朗讀。', steps: [
     ['匯入簡報', '從「檔案」選擇 PPT、PPTX 或 Keynote（.key），確認頁面與備註已正確載入。'],
     ['從第一頁播放', '點選播放，聆聽目前頁面的講稿；讀完後可自動前往下一頁。'],
@@ -90,8 +90,8 @@ export const zhHant = {
 };
 
 export const ja = {
-  nav: { navigation: 'メインナビゲーション', language: '言語を選択', skip: '本文へ移動', home: 'ホーム', features: '機能', allFeatures: 'すべての機能', notes: 'ノート読み上げガイド', rehearsal: '発表の練習', privacy: 'プライバシーポリシー', terms: '利用規約', support: 'お問い合わせ', download: 'App Storeで入手', originalVersion: '原文' },
-  home: { eyebrow: 'Tingbo · 発表者ノートを音声で', title: 'ノートを聴いて、発表を自分のものに', description: 'Tingboは発表者ノートをスライドごとに読み上げます。自動送り、バックグラウンド再生、PPT・PPTX・Keynoteの閲覧に対応。', intro: '各スライドのノートを音声で確認。読み終えると次のページへ進み、画面を閉じても聴き続けられます。言いにくい文章は編集して、もう一度聴いてみましょう。', formats: 'iPhone・iPad · PPT / PPTX / Keynote · アカウント不要', featureEyebrow: '聴いて、直して、繰り返す', featureTitle: '最初のスライドから通して練習', featureIntro: '本番の順番でノートを聴き、伝わりにくい言葉を見つけましょう。', readerEyebrow: '軽快なスライド閲覧', readerTitle: '聴きながらスライドを確認', readerText: 'スワイプでページをめくり、横向き表示やズームで細部を確認。表示中のスライドのノートと再生操作も同じ画面にあります。', screenshotAlt: 'スライド、ノート、音声再生操作を表示したTingboの英語版画面', screenshotCaption: 'アプリ画面の例（英語表示）。', stepsTitle: '練習の進め方', faqTitle: 'よくある質問', ctaTitle: '本番前に、原稿を耳で確かめる', ctaText: 'プレゼンを読み込み、最初のスライドから聴いてみましょう。' },
+  nav: { navigation: 'メインナビゲーション', language: '言語を選択', skip: '本文へ移動', home: 'ホーム', features: '機能', allFeatures: 'すべての機能', notes: 'ノート読み上げガイド', rehearsal: '発表の練習', privacy: 'プライバシーポリシー', terms: '利用規約', support: 'お問い合わせ', download: 'App Storeで入手', downloadAndroid: 'Google Playで入手', originalVersion: '原文' },
+  home: { eyebrow: 'Tingbo · 発表者ノートを音声で', title: 'ノートを聴いて、発表を自分のものに', description: 'Tingboは発表者ノートをスライドごとに読み上げます。自動送り、バックグラウンド再生、PPT・PPTX・Keynoteの閲覧に対応。', intro: '各スライドのノートを音声で確認。読み終えると次のページへ進み、画面を閉じても聴き続けられます。言いにくい文章は編集して、もう一度聴いてみましょう。', formats: 'iPhone・iPad・Android · PPT / PPTX / Keynote · アカウント不要', featureEyebrow: '聴いて、直して、繰り返す', featureTitle: '最初のスライドから通して練習', featureIntro: '本番の順番でノートを聴き、伝わりにくい言葉を見つけましょう。', readerEyebrow: '軽快なスライド閲覧', readerTitle: '聴きながらスライドを確認', readerText: 'スワイプでページをめくり、横向き表示やズームで細部を確認。表示中のスライドのノートと再生操作も同じ画面にあります。', screenshotAlt: 'スライド、ノート、音声再生操作を表示したTingboの英語版画面', screenshotCaption: 'アプリ画面の例（英語表示）。', stepsTitle: '練習の進め方', faqTitle: 'よくある質問', ctaTitle: '本番前に、原稿を耳で確かめる', ctaText: 'プレゼンを読み込み、最初のスライドから聴いてみましょう。' },
   features: [
     ['ノートをスライドごとに読み上げ', '端末の音声合成を使い、表示中のスライドに対応する発表者ノートを読み上げます。'],
     ['読み終わったら自動で次へ', 'ナレーションの終了後に次のスライドへ。いつでも一時停止、リプレイ、手動移動ができます。'],
@@ -100,7 +100,7 @@ export const ja = {
     ['スライドを手軽に閲覧', 'スワイプ、画面の回転、ピンチ操作で図や文字を確認できます。'],
     ['履歴と書き出し', '以前のプレゼンを開き直し、ノートをMarkdownに、利用可能な場合はスライドをPPTXに書き出せます。']
   ],
-  featuresPage: { title: 'Tingboの機能', intro: 'スライド、発表者ノート、音声再生を一つの画面にまとめました。', formatsTitle: 'ファイルと対応端末', formatsText: 'iOS 1.2以降で.ppt、.pptx、.keyを読み込めます。iPhoneとiPad向けにApp Storeで公開中です。複雑なレイアウトは元のアプリと表示が異なる場合があります。' },
+  featuresPage: { title: 'Tingboの機能', intro: 'スライド、発表者ノート、音声再生を一つの画面にまとめました。', formatsTitle: 'ファイルと対応端末', formatsText: 'iOS 1.2以降で.ppt、.pptx、.keyを読み込めます。iPhoneとiPad向けはApp Store、Android版はGoogle Playで公開中です。複雑なレイアウトは元のアプリと表示が異なる場合があります。' },
   notes: { title: '発表者ノートを読み上げる方法', intro: '話したい内容を各スライドのノートに書けば、Tingboが順番に読み上げます。', tip: 'ノートが空のスライドには、先に原稿を追加してください。', steps: [
     ['ファイルを読み込む', '「ファイル」からPPT、PPTX、Keynote（.key）を選び、スライドとノートを確認します。'],
     ['最初のページから再生', '再生をタップすると現在のノートを読み上げ、終了後に次のページへ進めます。'],
@@ -169,8 +169,8 @@ export const ja = {
 };
 
 export const ko = {
-  nav: { navigation: '기본 메뉴', language: '언어 선택', skip: '본문으로 이동', home: '홈', features: '기능', allFeatures: '모든 기능 보기', notes: '발표자 노트 읽기 안내', rehearsal: '발표 연습', privacy: '개인정보 처리방침', terms: '이용약관', support: '문의', download: 'App Store에서 다운로드', originalVersion: '원문' },
-  home: { eyebrow: 'Tingbo · 발표자 노트를 소리로', title: '원고를 듣고, 발표를 준비하세요', description: 'Tingbo는 슬라이드마다 발표자 노트를 읽어 줍니다. 자동 넘김, 백그라운드 재생, PPT·PPTX·Keynote 열기를 지원합니다.', intro: '각 슬라이드의 원고를 들으면서 연습하세요. 읽기가 끝나면 다음 페이지로 넘어가고, 화면을 잠가도 계속 들을 수 있습니다. 어색한 문장은 수정한 뒤 다시 재생하세요.', formats: 'iPhone 및 iPad · PPT / PPTX / Keynote · 계정 불필요', featureEyebrow: '듣고, 고치고, 다시 연습', featureTitle: '첫 슬라이드부터 차근차근', featureIntro: '실제 발표 순서대로 원고를 듣고 다듬을 부분을 찾아보세요.', readerEyebrow: '가벼운 슬라이드 뷰어', readerTitle: '원고를 들으며 슬라이드도 확인', readerText: '스와이프로 페이지를 넘기고, 가로 화면이나 확대 기능으로 세부 내용을 보세요. 현재 슬라이드의 노트와 재생 버튼이 같은 화면에 있습니다.', screenshotAlt: '영어 화면에서 슬라이드, 발표자 노트, 음성 재생 버튼을 보여주는 Tingbo', screenshotCaption: '앱 화면 예시(영어 UI).', stepsTitle: '세 단계 연습', faqTitle: '자주 묻는 질문', ctaTitle: '발표 전에 원고를 귀로 확인하세요', ctaText: '자료를 가져오고 첫 슬라이드부터 재생하세요.' },
+  nav: { navigation: '기본 메뉴', language: '언어 선택', skip: '본문으로 이동', home: '홈', features: '기능', allFeatures: '모든 기능 보기', notes: '발표자 노트 읽기 안내', rehearsal: '발표 연습', privacy: '개인정보 처리방침', terms: '이용약관', support: '문의', download: 'App Store에서 다운로드', downloadAndroid: 'Google Play에서 다운로드', originalVersion: '원문' },
+  home: { eyebrow: 'Tingbo · 발표자 노트를 소리로', title: '원고를 듣고, 발표를 준비하세요', description: 'Tingbo는 슬라이드마다 발표자 노트를 읽어 줍니다. 자동 넘김, 백그라운드 재생, PPT·PPTX·Keynote 열기를 지원합니다.', intro: '각 슬라이드의 원고를 들으면서 연습하세요. 읽기가 끝나면 다음 페이지로 넘어가고, 화면을 잠가도 계속 들을 수 있습니다. 어색한 문장은 수정한 뒤 다시 재생하세요.', formats: 'iPhone, iPad 및 Android · PPT / PPTX / Keynote · 계정 불필요', featureEyebrow: '듣고, 고치고, 다시 연습', featureTitle: '첫 슬라이드부터 차근차근', featureIntro: '실제 발표 순서대로 원고를 듣고 다듬을 부분을 찾아보세요.', readerEyebrow: '가벼운 슬라이드 뷰어', readerTitle: '원고를 들으며 슬라이드도 확인', readerText: '스와이프로 페이지를 넘기고, 가로 화면이나 확대 기능으로 세부 내용을 보세요. 현재 슬라이드의 노트와 재생 버튼이 같은 화면에 있습니다.', screenshotAlt: '영어 화면에서 슬라이드, 발표자 노트, 음성 재생 버튼을 보여주는 Tingbo', screenshotCaption: '앱 화면 예시(영어 UI).', stepsTitle: '세 단계 연습', faqTitle: '자주 묻는 질문', ctaTitle: '발표 전에 원고를 귀로 확인하세요', ctaText: '자료를 가져오고 첫 슬라이드부터 재생하세요.' },
   features: [
     ['슬라이드별 노트 읽기', '기기의 음성 합성 기능으로 현재 슬라이드의 발표자 노트를 읽어 줍니다.'],
     ['읽은 뒤 자동 넘김', '원고가 끝나면 다음 슬라이드로 이동합니다. 일시정지, 다시 듣기, 수동 이동도 가능합니다.'],
@@ -179,7 +179,7 @@ export const ko = {
     ['슬라이드 탐색', '스와이프, 화면 회전, 두 손가락 확대를 사용해 표와 그림을 살펴보세요.'],
     ['기록과 내보내기', '이전에 가져온 자료를 다시 열고, 노트를 Markdown으로 또는 가능한 경우 슬라이드를 PPTX로 내보냅니다.']
   ],
-  featuresPage: { title: 'Tingbo 기능', intro: '슬라이드와 발표자 노트, 음성 재생을 한 화면에 모아 발표 연습을 돕습니다.', formatsTitle: '파일과 기기 지원', formatsText: 'iOS 1.2 이상에서 .ppt, .pptx, .key를 가져올 수 있습니다. iPhone과 iPad용 앱은 App Store에서 받을 수 있습니다. 복잡한 레이아웃은 원본 앱과 다르게 보일 수 있습니다.' },
+  featuresPage: { title: 'Tingbo 기능', intro: '슬라이드와 발표자 노트, 음성 재생을 한 화면에 모아 발표 연습을 돕습니다.', formatsTitle: '파일과 기기 지원', formatsText: 'iOS 1.2 이상에서 .ppt, .pptx, .key를 가져올 수 있습니다. iPhone과 iPad용 앱은 App Store, Android용 앱은 Google Play에서 받을 수 있습니다. 복잡한 레이아웃은 원본 앱과 다르게 보일 수 있습니다.' },
   notes: { title: '발표자 노트를 소리 내어 읽는 방법', intro: '각 슬라이드의 노트에 원고를 적으면 Tingbo가 순서대로 읽어 줍니다.', tip: '노트가 비어 있는 슬라이드는 먼저 말할 내용을 추가하세요.', steps: [
     ['발표 자료 가져오기', '파일 앱에서 PPT, PPTX 또는 Keynote(.key)를 선택하고 슬라이드와 노트를 확인하세요.'],
     ['첫 페이지부터 재생', '재생을 누르면 현재 노트를 읽고, 끝나면 다음 슬라이드로 넘어갈 수 있습니다.'],

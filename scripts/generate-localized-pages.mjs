@@ -8,6 +8,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const origin = 'https://tingbo.app';
 const beacon = '<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{"token": "1afbc61212cf4e1c8385cf85122aefff"}\'></script>';
 const appStore = 'https://apps.apple.com/us/app/id6806785922';
+const googlePlay = 'https://play.google.com/store/apps/details?id=com.ff.narrator';
 
 function escape(value) {
   return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;')
@@ -59,6 +60,26 @@ function footer(locale, data) {
 function shell(kind, locale, data, title, description, body) {
   const url = `${origin}${route(kind, locale.code)}`;
   const direction = locale.code === 'ar' ? ' dir="rtl"' : '';
+  const appSchema = kind === 'home' ? `
+  <script type="application/ld+json">
+  ${JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'MobileApplication',
+    '@id': `${origin}/#app`,
+    name: 'Tingbo: Hear Speaker Notes',
+    alternateName: '听播 Tingbo · PPT听稿',
+    url: `${origin}/`,
+    downloadUrl: [appStore, googlePlay],
+    sameAs: [appStore, googlePlay],
+    applicationCategory: 'BusinessApplication',
+    applicationSubCategory: 'Presentation software',
+    operatingSystem: 'iOS, Android',
+    isAccessibleForFree: true,
+    inLanguage: locale.code,
+    description,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
+  }, null, 2)}
+  </script>` : '';
   return `<!DOCTYPE html>
 <html lang="${escape(locale.code)}"${direction}>
 <head>
@@ -74,7 +95,7 @@ function shell(kind, locale, data, title, description, body) {
   <meta property="og:title" content="${escape(title)} | Tingbo">
   <meta property="og:description" content="${escape(description)}">
   <meta property="og:url" content="${url}">
-  <meta property="og:image" content="https://tingbo.app/images/og-en.jpg">
+  <meta property="og:image" content="https://tingbo.app/images/og-en.jpg">${appSchema}
 </head>
 <body class="localized-page">
   <a class="skip-link" href="#main">${escape(data.nav.skip)}</a>
@@ -97,7 +118,7 @@ function home(locale, data) {
   <section class="section localized-hero" aria-labelledby="home-title"><div class="section-inner localized-hero-layout">
     <div><p class="eyebrow">${escape(h.eyebrow)}</p><h1 id="home-title">${escape(h.title)}</h1>
     <p class="hero-lede">${escape(h.intro)}</p>
-    <div class="actions">${a(appStore, data.nav.download, ' class="button" rel="noopener"')}${a(route('notes', locale.code), data.nav.notes, ' class="button button-secondary"')}</div>
+    <div class="actions">${a(appStore, data.nav.download, ' class="button" rel="noopener"')}${a(googlePlay, data.nav.downloadAndroid, ' class="button" rel="noopener"')}${a(route('notes', locale.code), data.nav.notes, ' class="button button-secondary"')}</div>
     <p class="hero-facts">${escape(h.formats)}</p></div>
     <div class="localized-audio-art" aria-hidden="true"><div class="localized-slide"><span></span><span></span><span></span></div><div class="localized-player"><i>▶</i><b></b><b></b><b></b><b></b><b></b></div></div>
   </div></section>
@@ -119,16 +140,19 @@ function home(locale, data) {
   <section class="section" aria-labelledby="faq-title"><div class="section-inner faq"><div class="section-heading"><h2 id="faq-title">${escape(h.faqTitle)}</h2></div>
     ${data.faq.map(([q, answer]) => `<details><summary>${escape(q)}</summary><p>${escape(answer)}</p></details>`).join('')}
   </div></section>
-  <section class="section cta-band"><div class="section-inner cta-row"><div><h2>${escape(h.ctaTitle)}</h2><p>${escape(h.ctaText)}</p></div>${a(appStore, data.nav.download, ' class="button" rel="noopener"')}</div></section>`;
+  <section class="section cta-band"><div class="section-inner cta-row"><div><h2>${escape(h.ctaTitle)}</h2><p>${escape(h.ctaText)}</p></div><div class="actions">${a(appStore, data.nav.download, ' class="button" rel="noopener"')}${a(googlePlay, data.nav.downloadAndroid, ' class="button" rel="noopener"')}</div></div></section>`;
   return shell('home', locale, data, h.title, h.description, body);
 }
 
 function article(kind, locale, data, content, blocks) {
+  const downloadActions = ['features', 'notes', 'rehearsal'].includes(kind)
+    ? `${a(appStore, data.nav.download, ' class="button" rel="noopener"')}${a(googlePlay, data.nav.downloadAndroid, ' class="button" rel="noopener"')}`
+    : a(appStore, data.nav.download, ' class="button" rel="noopener"');
   const body = `<div class="article-shell"><article class="article">
     <div class="breadcrumbs">${a(route('home', locale.code), data.nav.home)} / ${escape(content.title)}</div>
     <h1>${escape(content.title)}</h1><p class="article-lede">${escape(content.intro)}</p>
     ${blocks}
-    <div class="actions">${a(appStore, data.nav.download, ' class="button" rel="noopener"')}</div>
+    <div class="actions">${downloadActions}</div>
   </article></div>`;
   return shell(kind, locale, data, content.title, content.description ?? content.intro, body);
 }
